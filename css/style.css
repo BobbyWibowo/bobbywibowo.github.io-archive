@@ -771,7 +771,7 @@ body {
   color: #eff0f1;
   font-weight: 400;
   font-size: 18px;
-  font-family: "Merriweather", serif;
+  font-family: merriweather, serif;
   line-height: 1.75;
   text-rendering: geometricPrecision;
   -moz-osx-font-smoothing: grayscale;
@@ -1427,7 +1427,7 @@ body {
 }
 
 .post-list .post-item .meta {
-  font-family: "Inconsolata", monospace;
+  font-family: inconsolata, monospace;
   display: block;
   margin-right: 16px;
   min-width: 100px;
@@ -1451,10 +1451,10 @@ body {
 
 .project-list .project-item {
   margin-bottom: 5px;
-}
-
-.project-list .project-item a {
-  font-family: "Inconsolata", monospace;
+  /*
+    a
+      font-family: $font-family-mono
+    */
 }
 
 article header .posttitle {
@@ -1626,7 +1626,7 @@ article .content .caption {
 }
 
 #archive .post-list .post-item .meta {
-  font-family: "Inconsolata", monospace;
+  font-family: inconsolata, monospace;
   display: block;
   margin-right: 16px;
   min-width: 100px;
@@ -1871,7 +1871,7 @@ pre {
   padding: 10px 15px;
   border: 1px dotted #7f8c8d;
   border-radius: 4px;
-  font-family: "Inconsolata", monospace;
+  font-family: inconsolata, monospace;
   line-height: 22px;
   -webkit-border-radius: 4px;
 }
@@ -1886,7 +1886,7 @@ code {
   padding: 0 5px;
   border: 1px dotted #7f8c8d;
   border-radius: 2px;
-  font-family: "Inconsolata", monospace;
+  font-family: inconsolata, monospace;
   -webkit-border-radius: 2px;
 }
 
@@ -1896,7 +1896,7 @@ code {
   padding: 10px 15px;
   border-radius: 4px;
   background: #31363b;
-  font-family: "Inconsolata", monospace;
+  font-family: inconsolata, monospace;
   -webkit-border-radius: 4px;
 }
 
