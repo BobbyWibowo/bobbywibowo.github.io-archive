@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.fiery.me/"/>
-  <updated>2018-04-13T17:33:59.864Z</updated>
+  <updated>2018-05-07T11:30:58.626Z</updated>
   <id>https://blog.fiery.me/</id>
   
   <author>
@@ -17,11 +17,61 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>This blog is now hosted at GitHub Pages!</title>
+    <link href="https://blog.fiery.me/2018/05/07/This-blog-is-now-hosted-at-GitHub-Pages/"/>
+    <id>https://blog.fiery.me/2018/05/07/This-blog-is-now-hosted-at-GitHub-Pages/</id>
+    <published>2018-05-07T11:22:44.000Z</published>
+    <updated>2018-05-07T11:30:58.626Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Hi,&lt;/p&gt;
+&lt;p&gt;So yeah, as the title says, this blog (&lt;a href=&quot;https://blog.fiery.me&quot;&gt;blog.fiery.me&lt;/a&gt;) is now hosted at GitHub Pages. So
+        
+      
+    
+    </summary>
+    
+      <category term="General" scheme="https://blog.fiery.me/categories/General/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Added hastebin</title>
+    <link href="https://blog.fiery.me/2018/05/07/Added-hastebin/"/>
+    <id>https://blog.fiery.me/2018/05/07/Added-hastebin/</id>
+    <published>2018-05-07T11:17:03.000Z</published>
+    <updated>2018-05-07T11:29:59.743Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Hello there,&lt;/p&gt;
+&lt;p&gt;Just a small announcement, I’ve added a basic installation of hastebin at &lt;a href=&quot;https://paste.fiery.me/&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="General" scheme="https://blog.fiery.me/categories/General/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>Bash uploader</title>
     <link href="https://blog.fiery.me/2018/04/14/Bash-uploader/"/>
     <id>https://blog.fiery.me/2018/04/14/Bash-uploader/</id>
     <published>2018-04-13T17:33:00.000Z</published>
-    <updated>2018-04-13T17:33:59.864Z</updated>
+    <updated>2018-05-07T11:29:45.779Z</updated>
     
     <summary type="html">
     

@@ -3,10 +3,40 @@
   
     
     <entry>
+      <title>This blog is now hosted at GitHub Pages!</title>
+      <link href="/2018/05/07/This-blog-is-now-hosted-at-GitHub-Pages/"/>
+      <url>/2018/05/07/This-blog-is-now-hosted-at-GitHub-Pages/</url>
+      <content type="html"><![CDATA[<p>Hi,</p><p>So yeah, as the title says, this blog (<a href="https://blog.fiery.me">blog.fiery.me</a>) is now hosted at GitHub Pages. So whenever anything happens to the actual physical server where I host both <a href="https://safe.fiery.me" target="_blank" rel="noopener">safe.fiery.me</a> and  <a href="https://paste.fiery.me" target="_blank" rel="noopener">paste.fiery.me</a>, this blog will stay online. That way I can then post following news about whatever happens to the server here.</p><p>Well, that’s all. See ya!</p>]]></content>
+      
+      <categories>
+          
+          <category> General </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    <entry>
+      <title>Added hastebin</title>
+      <link href="/2018/05/07/Added-hastebin/"/>
+      <url>/2018/05/07/Added-hastebin/</url>
+      <content type="html"><![CDATA[<p>Hello there,</p><p>Just a small announcement, I’ve added a basic installation of hastebin at <a href="https://paste.fiery.me/" target="_blank" rel="noopener">https://paste.fiery.me/</a>. It should work as is with anything that supports hastebin by simply changing the domain.</p><p>I’ve been planning to add my own installation of paste/hastebin for a while but I only got around doing it today.</p><p>Anyways, it’s very basic so I’m not gonna comment further. If you want to use it, then feel free.</p><p>Oh yeah, I’d like to note that it does not have paste expiration yet. I’ll get to that someday in the future.</p><p>That’s all. See ya folks!</p>]]></content>
+      
+      <categories>
+          
+          <category> General </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    <entry>
       <title>Bash uploader</title>
       <link href="/2018/04/14/Bash-uploader/"/>
       <url>/2018/04/14/Bash-uploader/</url>
-      <content type="html"><![CDATA[<p>Hello,</p><p>I recently forked an open source project named <a href="https://github.com/jschx/uguush" target="_blank" rel="noopener">uguush</a>. It’s a command-line uploader for various file hosts, mainly pomf clones. If you are on *nix, it can be a simple replacement to ShareX, which is Windows-only.  You can check out my fork <a href="https://github.com/BobbyWibowo/uguush" target="_blank" rel="noopener">here</a>.</p><p>My fork will upload to <a href="https://safe.fiery.me/" target="_blank" rel="noopener">safe.fiery.me</a> by default, but you can still use the other hosts available in it.</p><p><img src="https://the.fiery.me/yRYR.png" alt="uguush"></p><p>The main differences between my fork and master is the ability to use token and albums.</p><p>For example, running <code>uguush -w -t MY_TOKEN_HERE</code> will screenshot your active window and use <code>MY_TOKEN_HERE</code> as the token. If the token matches your account’s, you will be able to see your uploaded screenshot from the safe’s dashboard.</p><p>Then if you run <code>uguush -f -t MY_TOKEN_HERE -a 1</code>, a fullscreen screenshot will be taken and uploaded to your account, and as long as you have an album with ID 1, the screenshot will be added to that album. I have updated Albums’ list in safe.fiery.me  to show the albums’ ID a few days ago to help you in getting the IDs.</p><p>Other than capturing active window and fullscreen, it can also capture selection with <code>-s</code> option.</p><p>By default, it relies on <a href="https://github.com/naelstrof/maim" target="_blank" rel="noopener">maim</a> and <a href="https://github.com/naelstrof/slop" target="_blank" rel="noopener">slop</a>, but if you have <a href="https://www.kde.org/applications/graphics/spectacle/" target="_blank" rel="noopener">KDE Spectacle</a>, then you can use  <code>-k</code> option to replace both maim and slop with it.</p><p>Other than that, I also added <code>-i</code> option which you can use to apply shadow effect into active window capture, just like spectacle. But unlike spectacle, even when the active window is maximized, it will still apply the shadow effect. Truthfully  though, I ended up not using that option ever since I got spectacle.</p><p>Anyways, if you want to use it, you can add custom shortcuts if you want. At least on my end I’ve replaced all spectacle shortcuts with this.</p><p>On a side note, technically my fork is compatible with all lolisafe-based host. You’ll just have to manually edit the host from safe.fiery.me to other lolisafe-based host. Afterwards both token and albums feature should work just fine.</p><p>Okay, that’s all from me for today folks. See you all next time~</p>]]></content>
+      <content type="html"><![CDATA[<p>Hello,</p><p>I recently forked an open source project named <a href="https://github.com/jschx/uguush" target="_blank" rel="noopener">uguush</a>. It’s a command-line uploader for various file hosts, mainly pomf clones. If you are on *nix, it can be a simple replacement to ShareX, which is Windows-only.  You can check out my fork <a href="https://github.com/BobbyWibowo/uguush" target="_blank" rel="noopener">here</a>.</p><p>My fork will upload to <a href="https://safe.fiery.me/" target="_blank" rel="noopener">safe.fiery.me</a> by default, but you can still use the other hosts available in it.</p><p><img src="https://the.fiery.me/yRYR.png" alt="uguush"></p><p>The main differences between my fork and master is the ability to use token and albums.</p><p>For example, running <code>uguush -w -t MY_TOKEN_HERE</code> will screenshot your active window and use <code>MY_TOKEN_HERE</code> as the token. If the token matches your account’s, you will be able to see your uploaded screenshot from the safe’s dashboard.</p><p>Then if you run <code>uguush -f -t MY_TOKEN_HERE -a 1</code>, a fullscreen screenshot will be taken and uploaded to your account, and as long as you have an album with ID 1, the screenshot will be added to that album. I have updated albums list in safe.fiery.me  to show the albums’ ID a few days ago to help you in getting their IDs.</p><p>Other than capturing active window and fullscreen, it can also capture selection with <code>-s</code> option.</p><p>By default, it depends on <a href="https://github.com/naelstrof/maim" target="_blank" rel="noopener">maim</a> and <a href="https://github.com/naelstrof/slop" target="_blank" rel="noopener">slop</a>, but if you have <a href="https://www.kde.org/applications/graphics/spectacle/" target="_blank" rel="noopener">KDE Spectacle</a>, then you can use  <code>-k</code> option to replace both maim and slop with it.</p><p>Other than that, I also added <code>-i</code> option which you can use to apply shadow effect into active window capture when using maim/slop, just like spectacle. But unlike spectacle, even when the active window is maximized, it will still apply the  shadow effect. Truthfully though, I ended up not using that option ever since I got spectacle. It was merely an experiment in the first place.</p><p>Anyways, if you want to use it, you can add custom shortcuts if you want. At least on my end I’ve replaced all spectacle shortcuts with this.</p><p>On a side note, technically my fork is compatible with all lolisafe-based host. You’ll just have to manually edit the host from safe.fiery.me to other lolisafe-based host. Afterwards both token and albums feature should work just fine.</p><p>Okay, that’s all from me for today folks. See you all next time~</p>]]></content>
       
       <categories>
           
@@ -115,13 +145,6 @@
       <link href="/search/index.html"/>
       <url>/search/index.html</url>
       <content type="html"><![CDATA[]]></content>
-    </entry>
-    
-    <entry>
-      <title>about</title>
-      <link href="/about/index.html"/>
-      <url>/about/index.html</url>
-      <content type="html"><![CDATA[<p>Work in progress.</p>]]></content>
     </entry>
     
   

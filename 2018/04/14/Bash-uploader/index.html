@@ -15,7 +15,7 @@
   <meta property="og:description" content="Hello, I recently forked an open source project named uguush. It’s a command-line uploader for various file hosts, mainly pomf clones. If you are on *nix, it can be a simple replacement to ShareX, whi">
   <meta property="og:locale" content="en">
   <meta property="og:image" content="https://the.fiery.me/yRYR.png">
-  <meta property="og:updated_time" content="2018-04-13T17:33:59.864Z">
+  <meta property="og:updated_time" content="2018-05-07T11:29:45.779Z">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Bash uploader">
   <meta name="twitter:description" content="Hello, I recently forked an open source project named uguush. It’s a command-line uploader for various file hosts, mainly pomf clones. If you are on *nix, it can be a simple replacement to ShareX, whi">
@@ -74,6 +74,8 @@
     <br/>
     <span id="actions">
       <ul>
+        
+        <li><a class="icon" href="/2018/05/07/Added-hastebin/"><i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i></a></li>
         
         
         <li><a class="icon" href="/2018/04/13/No-JS-Uploader/"><i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
@@ -135,14 +137,14 @@
         <p>For example, running <code>uguush -w -t MY_TOKEN_HERE</code> will screenshot your active window and use <code>MY_TOKEN_HERE</code> as the token. If the token matches your account’s, you will be able to see your uploaded screenshot from the safe’s
           dashboard.
         </p>
-        <p>Then if you run <code>uguush -f -t MY_TOKEN_HERE -a 1</code>, a fullscreen screenshot will be taken and uploaded to your account, and as long as you have an album with ID 1, the screenshot will be added to that album. I have updated Albums’ list
-          in safe.fiery.me to show the albums’ ID a few days ago to help you in getting the IDs.</p>
+        <p>Then if you run <code>uguush -f -t MY_TOKEN_HERE -a 1</code>, a fullscreen screenshot will be taken and uploaded to your account, and as long as you have an album with ID 1, the screenshot will be added to that album. I have updated albums list
+          in safe.fiery.me to show the albums’ ID a few days ago to help you in getting their IDs.</p>
         <p>Other than capturing active window and fullscreen, it can also capture selection with <code>-s</code> option.</p>
-        <p>By default, it relies on <a href="https://github.com/naelstrof/maim" target="_blank" rel="noopener">maim</a> and <a href="https://github.com/naelstrof/slop" target="_blank" rel="noopener">slop</a>, but if you have <a href="https://www.kde.org/applications/graphics/spectacle/"
+        <p>By default, it depends on <a href="https://github.com/naelstrof/maim" target="_blank" rel="noopener">maim</a> and <a href="https://github.com/naelstrof/slop" target="_blank" rel="noopener">slop</a>, but if you have <a href="https://www.kde.org/applications/graphics/spectacle/"
             target="_blank" rel="noopener">KDE Spectacle</a>, then you can use
           <code>-k</code> option to replace both maim and slop with it.</p>
-        <p>Other than that, I also added <code>-i</code> option which you can use to apply shadow effect into active window capture, just like spectacle. But unlike spectacle, even when the active window is maximized, it will still apply the shadow effect.
-          Truthfully though, I ended up not using that option ever since I got spectacle.</p>
+        <p>Other than that, I also added <code>-i</code> option which you can use to apply shadow effect into active window capture when using maim/slop, just like spectacle. But unlike spectacle, even when the active window is maximized, it will still apply
+          the shadow effect. Truthfully though, I ended up not using that option ever since I got spectacle. It was merely an experiment in the first place.</p>
         <p>Anyways, if you want to use it, you can add custom shortcuts if you want. At least on my end I’ve replaced all spectacle shortcuts with this.</p>
         <p>On a side note, technically my fork is compatible with all lolisafe-based host. You’ll just have to manually edit the host from safe.fiery.me to other lolisafe-based host. Afterwards both token and albums feature should work just fine.</p>
         <p>Okay, that’s all from me for today folks. See you all next time~</p>
