@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Bobby&#39;s blog</title>
+  
+  <subtitle>Just another personal blog</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://blog.fiery.me/"/>
+  <updated>2018-04-13T17:33:59.864Z</updated>
+  <id>https://blog.fiery.me/</id>
+  
+  <author>
+    <name>Bobby Wibowo</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Bash uploader</title>
+    <link href="https://blog.fiery.me/2018/04/14/Bash-uploader/"/>
+    <id>https://blog.fiery.me/2018/04/14/Bash-uploader/</id>
+    <published>2018-04-13T17:33:00.000Z</published>
+    <updated>2018-04-13T17:33:59.864Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Hello,&lt;/p&gt;
+&lt;p&gt;I recently forked an open source project named &lt;a href=&quot;https://github.com/jschx/uguush&quot; target=&quot;_blank&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="General" scheme="https://blog.fiery.me/categories/General/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>No-JS Uploader!</title>
+    <link href="https://blog.fiery.me/2018/04/13/No-JS-Uploader/"/>
+    <id>https://blog.fiery.me/2018/04/13/No-JS-Uploader/</id>
+    <published>2018-04-13T16:47:00.000Z</published>
+    <updated>2018-04-13T16:55:42.309Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Hello guys, we meet again!&lt;/p&gt;
+&lt;p&gt;I’m dedicating this blog post to introduce the all new No-JS uploader page!&lt;/p&gt;
+&lt;p&gt;You can check it
+        
+      
+    
+    </summary>
+    
+      <category term="Safe" scheme="https://blog.fiery.me/categories/Safe/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Migrated to Hexo!</title>
+    <link href="https://blog.fiery.me/2018/04/02/Migrated-to-Hexo/"/>
+    <id>https://blog.fiery.me/2018/04/02/Migrated-to-Hexo/</id>
+    <published>2018-04-02T13:02:00.000Z</published>
+    <updated>2018-04-02T13:15:30.817Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Hi~&lt;/p&gt;
+&lt;p&gt;Just a heads up, I’ve migrated from Wordpress to Hexo.&lt;/p&gt;
+&lt;p&gt;I figured using Wordpress for a simple personal blog was rather
+        
+      
+    
+    </summary>
+    
+      <category term="General" scheme="https://blog.fiery.me/categories/General/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>CHUNKED UPLOADS!!</title>
+    <link href="https://blog.fiery.me/2018/03/29/Chunked-Uploads/"/>
+    <id>https://blog.fiery.me/2018/03/29/Chunked-Uploads/</id>
+    <published>2018-03-28T20:50:47.000Z</published>
+    <updated>2018-04-02T13:17:15.002Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Yayyyy~!&lt;/p&gt;
+&lt;p&gt;Good news! The safe now supports chunked uploads!&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Chunked uploads? Nani the heck is
+        
+      
+    
+    </summary>
+    
+      <category term="Safe" scheme="https://blog.fiery.me/categories/Safe/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Configurable file name length~</title>
+    <link href="https://blog.fiery.me/2018/03/24/Configurable-file-name-length/"/>
+    <id>https://blog.fiery.me/2018/03/24/Configurable-file-name-length/</id>
+    <published>2018-03-24T15:04:45.000Z</published>
+    <updated>2018-04-02T13:17:12.382Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Hi hi, just another blog post about safe.fiery.me here~&lt;/p&gt;
+&lt;p&gt;If you’re already registered, you can now set your preferred file name
+        
+      
+    
+    </summary>
+    
+      <category term="Safe" scheme="https://blog.fiery.me/categories/Safe/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Some changes to the safe</title>
+    <link href="https://blog.fiery.me/2018/03/14/Some-changes-to-the-safe/"/>
+    <id>https://blog.fiery.me/2018/03/14/Some-changes-to-the-safe/</id>
+    <published>2018-03-14T07:36:49.000Z</published>
+    <updated>2018-04-02T13:17:04.049Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;If you don’t know which safe I’m talking about, it’s the one at &lt;a href=&quot;https://safe.fiery.me/&quot; target=&quot;_blank&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="Safe" scheme="https://blog.fiery.me/categories/Safe/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>My Discord</title>
+    <link href="https://blog.fiery.me/2018/01/23/My-Discord/"/>
+    <id>https://blog.fiery.me/2018/01/23/My-Discord/</id>
+    <published>2018-01-23T13:46:10.000Z</published>
+    <updated>2018-04-02T13:17:07.222Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;So yeah, uh.. I got a Discord account. If you got Discord too, and you feel like talking to me, um, feel free to add mine. It’s
+        
+      
+    
+    </summary>
+    
+      <category term="General" scheme="https://blog.fiery.me/categories/General/"/>
+    
+    
+  </entry>
+  
+</feed>

@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang=en>
+
+<head>
+  <!-- so meta -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <meta name="description" content="Hello guys, we meet again! I’m dedicating this blog post to introduce the all new No-JS uploader page! You can check it out from here. That uploader does not use any JavaScript in its front-end, so yo">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="No-JS Uploader!">
+  <meta property="og:url" content="https://blog.fiery.me/2018/04/13/No-JS-Uploader/index.html">
+  <meta property="og:site_name" content="Bobby&#39;s blog">
+  <meta property="og:description" content="Hello guys, we meet again! I’m dedicating this blog post to introduce the all new No-JS uploader page! You can check it out from here. That uploader does not use any JavaScript in its front-end, so yo">
+  <meta property="og:locale" content="en">
+  <meta property="og:updated_time" content="2018-04-13T16:55:42.309Z">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="No-JS Uploader!">
+  <meta name="twitter:description" content="Hello guys, we meet again! I’m dedicating this blog post to introduce the all new No-JS uploader page! You can check it out from here. That uploader does not use any JavaScript in its front-end, so yo">
+
+
+
+
+  <link rel="shortcut icon" href="https://safe.fiery.me/icons/96pxr.png">
+
+
+
+
+  <link rel="icon" type="image/png" href="https://safe.fiery.me/icons/192px.png" sizes="192x192">
+
+
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="https://safe.fiery.me/icons/180px.png">
+
+
+
+  <!-- title -->
+  <title>No-JS Uploader!</title>
+  <!-- styles -->
+  <link rel="stylesheet" href="/css/style.css">
+  <!-- rss -->
+
+
+  <link rel="alternate" href="/atom.xml" title="Bobby&#39;s blog" type="application/atom+xml" />
+
+</head>
+
+<body class="max-width mx-auto px3">
+
+  <div id="header-post">
+    <a id="menu-icon" href="#"><i class="fas fa-bars fa-lg"></i></a>
+    <a id="menu-icon-tablet" href="#"><i class="fas fa-bars fa-lg"></i></a>
+    <a id="top-icon-tablet" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fas fa-chevron-up fa-lg"></i></a>
+    <span id="menu">
+    <span id="nav">
+      <ul>
+        
+          <li><a href="https://fiery.me">Home</a></li>
+        
+          <li><a href="/">Blog</a></li>
+        
+          <li><a href="/archives/">Writing</a></li>
+        
+          <li><a href="/search/">Search</a></li>
+        
+          <li><a href="https://github.com/BobbyWibowo">Projects</a></li>
+        
+      </ul>
+    </span>
+    <br/>
+    <span id="actions">
+      <ul>
+        
+        <li><a class="icon" href="/2018/04/14/Bash-uploader/"><i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i></a></li>
+        
+        
+        <li><a class="icon" href="/2018/04/02/Migrated-to-Hexo/"><i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
+        
+        <li><a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
+        <li><a class="icon" href="#"><i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">Previous post</span>
+    <span id="i-next" class="info" style="display:none;">Next post</span>
+    <span id="i-top" class="info" style="display:none;">Back to top</span>
+    <span id="i-share" class="info" style="display:none;">Share post</span>
+    </span>
+    <br/>
+    <div id="share" style="display: none">
+      <ul>
+        <li><a class="icon" href="http://www.facebook.com/sharer.php?u=https://blog.fiery.me/2018/04/13/No-JS-Uploader/"><i class="fab fa-facebook " aria-hidden="true"></i></a></li>
+        <li><a class="icon" href="https://twitter.com/share?url=https://blog.fiery.me/2018/04/13/No-JS-Uploader/&text=No-JS Uploader!"><i class="fab fa-twitter " aria-hidden="true"></i></a></li>
+        <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=https://blog.fiery.me/2018/04/13/No-JS-Uploader/&title=No-JS Uploader!"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
+        <li><a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https://blog.fiery.me/2018/04/13/No-JS-Uploader/&is_video=false&description=No-JS Uploader!"><i class="fab fa-pinterest " aria-hidden="true"></i></a></li>
+        <li><a class="icon" href="mailto:?subject=No-JS Uploader!&body=Check out this article: https://blog.fiery.me/2018/04/13/No-JS-Uploader/"><i class="fas fa-envelope " aria-hidden="true"></i></a></li>
+        <li><a class="icon" href="https://getpocket.com/save?url=https://blog.fiery.me/2018/04/13/No-JS-Uploader/&title=No-JS Uploader!"><i class="fab fa-get-pocket " aria-hidden="true"></i></a></li>
+        <li><a class="icon" href="http://reddit.com/submit?url=https://blog.fiery.me/2018/04/13/No-JS-Uploader/&title=No-JS Uploader!"><i class="fab fa-reddit " aria-hidden="true"></i></a></li>
+        <li><a class="icon" href="http://www.stumbleupon.com/submit?url=https://blog.fiery.me/2018/04/13/No-JS-Uploader/&title=No-JS Uploader!"><i class="fab fa-stumbleupon " aria-hidden="true"></i></a></li>
+        <li><a class="icon" href="http://digg.com/submit?url=https://blog.fiery.me/2018/04/13/No-JS-Uploader/&title=No-JS Uploader!"><i class="fab fa-digg " aria-hidden="true"></i></a></li>
+        <li><a class="icon" href="http://www.tumblr.com/share/link?url=https://blog.fiery.me/2018/04/13/No-JS-Uploader/&name=No-JS Uploader!&description="><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
+      </ul>
+    </div>
+    <div id="toc">
+
+    </div>
+    </span>
+  </div>
+
+  <div class="content index my4">
+
+    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+      <header>
+        <h1 class="posttitle" itemprop="name headline">
+          No-JS Uploader!
+        </h1>
+        <div class="meta">
+          <span class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">Bobby Wibowo</span>
+          </span>
+          <div class="postdate">
+            <time datetime="2018-04-13T16:47:00.000Z" itemprop="datePublished">2018-04-13</time>
+          </div>
+
+        </div>
+      </header>
+
+      <div class="content" itemprop="articleBody">
+        <p>Hello guys, we meet again!</p>
+        <p>I’m dedicating this blog post to introduce the all new No-JS uploader page!</p>
+        <p>You can check it out from <a href="https://safe.fiery.me/nojs" target="_blank" rel="noopener">here</a>.</p>
+        <p>That uploader does not use any JavaScript in its front-end, so you can use it just fine with NoScript-like extension.</p>
+        <p>Unfortunately though, you will not be able to associate your uploads to your account, if you have any.</p>
+        <p>Back then I was thinking that I should probably add an input form in which you could enter your token if you wanted to. But then I thought that, if you would prefer to use the No-JS uploader, then it was likely that you would not bother making
+          an account anyways. After all, the Dashboard needs JavaScript. So yeah, in the end I decided not to add support for tokens to the No-JS uploader page.</p>
+        <p>Other than that, since we are behind CloudFlare, the maximum size that you can upload with the No-JS uploader page is 100 MB. For now the page says 300 MB, but that’s only when you are chunking your uploads to 100 MB or lower (just like the homepage
+          uploader which chunks your upload to 10 MB). I’ll try to make that page shows a different maximum file size in the future.</p>
+        <p>So yeah, that is all. Love you guys, and I hope you will find it useful~</p>
+      </div>
+    </article>
+    <div class="blog-post-comments">
+      <div id="disqus_thread">
+        <noscript>Please enable JavaScript to view the comments.</noscript>
+      </div>
+    </div>
+  </div>
+
+  <div id="footer-post-container">
+    <div id="footer-post">
+
+      <div id="nav-footer" style="display: none">
+        <ul>
+
+          <li><a href="https://fiery.me">Home</a></li>
+
+          <li><a href="/">Blog</a></li>
+
+          <li><a href="/archives/">Writing</a></li>
+
+          <li><a href="/search/">Search</a></li>
+
+          <li><a href="https://github.com/BobbyWibowo">Projects</a></li>
+
+        </ul>
+      </div>
+
+      <div id="toc-footer" style="display: none">
+
+      </div>
+
+      <div id="share-footer" style="display: none">
+        <ul>
+          <li><a class="icon" href="http://www.facebook.com/sharer.php?u=https://blog.fiery.me/2018/04/13/No-JS-Uploader/"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+          <li><a class="icon" href="https://twitter.com/share?url=https://blog.fiery.me/2018/04/13/No-JS-Uploader/&text=No-JS Uploader!"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+          <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=https://blog.fiery.me/2018/04/13/No-JS-Uploader/&title=No-JS Uploader!"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+          <li><a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https://blog.fiery.me/2018/04/13/No-JS-Uploader/&is_video=false&description=No-JS Uploader!"><i class="fab fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
+          <li><a class="icon" href="mailto:?subject=No-JS Uploader!&body=Check out this article: https://blog.fiery.me/2018/04/13/No-JS-Uploader/"><i class="fas fa-envelope fa-lg" aria-hidden="true"></i></a></li>
+          <li><a class="icon" href="https://getpocket.com/save?url=https://blog.fiery.me/2018/04/13/No-JS-Uploader/&title=No-JS Uploader!"><i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
+          <li><a class="icon" href="http://reddit.com/submit?url=https://blog.fiery.me/2018/04/13/No-JS-Uploader/&title=No-JS Uploader!"><i class="fab fa-reddit fa-lg" aria-hidden="true"></i></a></li>
+          <li><a class="icon" href="http://www.stumbleupon.com/submit?url=https://blog.fiery.me/2018/04/13/No-JS-Uploader/&title=No-JS Uploader!"><i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
+          <li><a class="icon" href="http://digg.com/submit?url=https://blog.fiery.me/2018/04/13/No-JS-Uploader/&title=No-JS Uploader!"><i class="fab fa-digg fa-lg" aria-hidden="true"></i></a></li>
+          <li><a class="icon" href="http://www.tumblr.com/share/link?url=https://blog.fiery.me/2018/04/13/No-JS-Uploader/&name=No-JS Uploader!&description="><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
+        </ul>
+      </div>
+
+      <div id="actions-footer">
+        <a id="menu" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;"><i class="fas fa-bars fa-lg" aria-hidden="true"></i> Menu</a>
+        <!--
+        <a id="toc" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;"><i class="fas fa-list fa-lg" aria-hidden="true"></i> TOC</a>
+        <a id="share" class="icon" href="#" onclick="$('#share-footer').toggle();return false;"><i class="fas fa-share-alt fa-lg" aria-hidden="true"></i> Share</a>
+        -->
+        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a>
+      </div>
+
+    </div>
+  </div>
+
+  <footer id="footer">
+    <div class="footer-left">
+      Copyright &copy; 2018 Bobby Wibowo
+    </div>
+    <div class="footer-right">
+      <nav>
+        <ul>
+
+          <li><a href="https://fiery.me">Home</a></li>
+
+          <li><a href="/">Blog</a></li>
+
+          <li><a href="/archives/">Writing</a></li>
+
+          <li><a href="/search/">Search</a></li>
+
+          <li><a href="https://github.com/BobbyWibowo">Projects</a></li>
+
+        </ul>
+      </nav>
+    </div>
+  </footer>
+  <!-- styles -->
+  <link rel="stylesheet" href="/lib/font-awesome/css/fontawesome-all.min.css">
+  <link rel="stylesheet" href="/lib/justified-gallery/css/justifiedGallery.min.css">
+  <!-- fonts -->
+  <link rel="stylesheet" href="https://fiery.me/css/merriweather.css?v=WwfDdjc9pv">
+  <link rel="stylesheet" href="https://fiery.me/css/inconsolata.css?v=WwfDdjc9pv">
+  <!-- jquery -->
+  <script src="/lib/jquery/jquery.min.js"></script>
+  <script src="/lib/justified-gallery/js/jquery.justifiedGallery.min.js"></script>
+  <script src="/js/main.js"></script>
+  <!-- search -->
+
+  <!-- Google Analytics -->
+
+  <!-- Baidu Analytics -->
+
+  <!-- Disqus Comments -->
+
+  <script type="text/javascript">
+    var disqus_shortname = 'fiery';
+
+    (function() {
+      var dsq = document.createElement('script');
+      dsq.type = 'text/javascript';
+      dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+  </script>
+</body>
+
+</html>

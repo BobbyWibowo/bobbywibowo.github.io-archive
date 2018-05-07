@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+    
+    <entry>
+      <title>Bash uploader</title>
+      <link href="/2018/04/14/Bash-uploader/"/>
+      <url>/2018/04/14/Bash-uploader/</url>
+      <content type="html"><![CDATA[<p>Hello,</p><p>I recently forked an open source project named <a href="https://github.com/jschx/uguush" target="_blank" rel="noopener">uguush</a>. It’s a command-line uploader for various file hosts, mainly pomf clones. If you are on *nix, it can be a simple replacement to ShareX, which is Windows-only.  You can check out my fork <a href="https://github.com/BobbyWibowo/uguush" target="_blank" rel="noopener">here</a>.</p><p>My fork will upload to <a href="https://safe.fiery.me/" target="_blank" rel="noopener">safe.fiery.me</a> by default, but you can still use the other hosts available in it.</p><p><img src="https://the.fiery.me/yRYR.png" alt="uguush"></p><p>The main differences between my fork and master is the ability to use token and albums.</p><p>For example, running <code>uguush -w -t MY_TOKEN_HERE</code> will screenshot your active window and use <code>MY_TOKEN_HERE</code> as the token. If the token matches your account’s, you will be able to see your uploaded screenshot from the safe’s dashboard.</p><p>Then if you run <code>uguush -f -t MY_TOKEN_HERE -a 1</code>, a fullscreen screenshot will be taken and uploaded to your account, and as long as you have an album with ID 1, the screenshot will be added to that album. I have updated Albums’ list in safe.fiery.me  to show the albums’ ID a few days ago to help you in getting the IDs.</p><p>Other than capturing active window and fullscreen, it can also capture selection with <code>-s</code> option.</p><p>By default, it relies on <a href="https://github.com/naelstrof/maim" target="_blank" rel="noopener">maim</a> and <a href="https://github.com/naelstrof/slop" target="_blank" rel="noopener">slop</a>, but if you have <a href="https://www.kde.org/applications/graphics/spectacle/" target="_blank" rel="noopener">KDE Spectacle</a>, then you can use  <code>-k</code> option to replace both maim and slop with it.</p><p>Other than that, I also added <code>-i</code> option which you can use to apply shadow effect into active window capture, just like spectacle. But unlike spectacle, even when the active window is maximized, it will still apply the shadow effect. Truthfully  though, I ended up not using that option ever since I got spectacle.</p><p>Anyways, if you want to use it, you can add custom shortcuts if you want. At least on my end I’ve replaced all spectacle shortcuts with this.</p><p>On a side note, technically my fork is compatible with all lolisafe-based host. You’ll just have to manually edit the host from safe.fiery.me to other lolisafe-based host. Afterwards both token and albums feature should work just fine.</p><p>Okay, that’s all from me for today folks. See you all next time~</p>]]></content>
+      
+      <categories>
+          
+          <category> General </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    <entry>
+      <title>No-JS Uploader!</title>
+      <link href="/2018/04/13/No-JS-Uploader/"/>
+      <url>/2018/04/13/No-JS-Uploader/</url>
+      <content type="html"><![CDATA[<p>Hello guys, we meet again!</p><p>I’m dedicating this blog post to introduce the all new No-JS uploader page!</p><p>You can check it out from <a href="https://safe.fiery.me/nojs" target="_blank" rel="noopener">here</a>.</p><p>That uploader does not use any JavaScript in its front-end, so you can use it just fine with NoScript-like extension.</p><p>Unfortunately though, you will not be able to associate your uploads to your account, if you have any.</p><p>Back then I was thinking that I should probably add an input form in which you could enter your token if you wanted to. But then I thought that, if you would prefer to use the No-JS uploader, then it was likely that you would not bother making an account  anyways. After all, the Dashboard needs JavaScript. So yeah, in the end I decided not to add support for tokens to the No-JS uploader page.</p><p>Other than that, since we are behind CloudFlare, the maximum size that you can upload with the No-JS uploader page is 100 MB. For now the page says 300 MB, but that’s only when you are chunking your uploads to 100 MB or lower (just like the homepage uploader  which chunks your upload to 10 MB). I’ll try to make that page shows a different maximum file size in the future.</p><p>So yeah, that is all. Love you guys, and I hope you will find it useful~</p>]]></content>
+      
+      <categories>
+          
+          <category> Safe </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    <entry>
+      <title>Migrated to Hexo!</title>
+      <link href="/2018/04/02/Migrated-to-Hexo/"/>
+      <url>/2018/04/02/Migrated-to-Hexo/</url>
+      <content type="html"><![CDATA[<p>Hi~</p><p>Just a heads up, I’ve migrated from Wordpress to Hexo.</p><p>I figured using Wordpress for a simple personal blog was rather overkill..</p><p>Anyways, that’s all. See ya next time~</p>]]></content>
+      
+      <categories>
+          
+          <category> General </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    <entry>
+      <title>CHUNKED UPLOADS!!</title>
+      <link href="/2018/03/29/Chunked-Uploads/"/>
+      <url>/2018/03/29/Chunked-Uploads/</url>
+      <content type="html"><![CDATA[<p>Yayyyy~!</p><p>Good news! The safe now supports chunked uploads!</p><p>&nbsp;</p><p>Chunked uploads? Nani the heck is that?</p><p>Well, basically, your uploads will be split into a bunch of smaller files!<br>.. but why?<br>Well, there are a couple of good reasons! But there’s one that’s very important among them all, in my opinion at least, and that is, we can finally “bypass” Cloudflare’s  100MB upload limit!</p><p>If your file is larger than 100MB, then we can just split them into multiple smaller files and upload all those pieces instead! Afterwards the server will simply have to rebuild the files, and tadaa~, a file larger than 100MB successfully uploaded through  Cloudflare~!</p><p>At the moment, the safe will split files into multiple 10MB pieces.<br>Which also means chunked uploads will only be enabled for files larger than 10MB.</p><p>So yeah, anyways, with that I’ve also raised the safe’s max file size to 300MB~!</p><p>&nbsp;</p><p>That’s all from me for today folks~ See ya~!</p>]]></content>
+      
+      <categories>
+          
+          <category> Safe </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    <entry>
+      <title>Configurable file name length~</title>
+      <link href="/2018/03/24/Configurable-file-name-length/"/>
+      <url>/2018/03/24/Configurable-file-name-length/</url>
+      <content type="html"><![CDATA[<p>Hi hi, just another blog post about safe.fiery.me here~</p><p>If you’re already registered, you can now set your preferred file name length!</p><p>When the safe first started, random file names used to be 32 chars long, but I changed it to 4 chars not too long ago.</p><p>Then I figured some people would prefer long names instead, so I implemented this option!</p><p>At the moment, users can choose from 4 to 32 chars, but 4 chars is still the default.</p><p>If you’re using the chrome extension or ShareX, make sure you’re properly using your token as the file name length preference is tied to your account~</p><p>Someday in the future, I’ll probably add support for non-registered users, but eh, someday~</p><p>That’s all folks, cya!</p>]]></content>
+      
+      <categories>
+          
+          <category> Safe </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    <entry>
+      <title>Some changes to the safe</title>
+      <link href="/2018/03/14/Some-changes-to-the-safe/"/>
+      <url>/2018/03/14/Some-changes-to-the-safe/</url>
+      <content type="html"><![CDATA[<p>If you don’t know which safe I’m talking about, it’s the one at <a href="https://safe.fiery.me/" target="_blank" rel="noopener">safe.fiery.me</a>.</p><p>Less than 24 hours ago it has officially started using 4 letters for file name as opposed to the old 32 letters. That’s a lot of reduction!<br>Example (NSFW-ish): <a href="https://s.fiery.me/ohVJ.jpg" target="_blank" rel="noopener">https://s.fiery.me/ohVJ.jpg</a></p><p>Other than some other custom fixes, it’s also now up-to-date with <a href="https://github.com/WeebDev/lolisafe" target="_blank" rel="noopener">WeebDev/lolisafe</a>. And yeah, you can still check whatever changes I’ve added in the fork <a href="https://github.com/BobbyWibowo/lolisafe" target="_blank" rel="noopener">BobbyWibowo/lolisafe</a>.</p><p>That’s all~</p>]]></content>
+      
+      <categories>
+          
+          <category> Safe </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    <entry>
+      <title>My Discord</title>
+      <link href="/2018/01/23/My-Discord/"/>
+      <url>/2018/01/23/My-Discord/</url>
+      <content type="html"><![CDATA[<p>So yeah, uh.. I got a Discord account. If you got Discord too, and you feel like talking to me, um, feel free to add mine. It’s <code>Bobby#0001</code>.<br>That’s it. Bai.</p><p><strong>UPDATE:</strong> Thanks to the benefits of selling my soul to Discord, I could change my discriminator from <code>#4400</code> to <code>#0001</code>.</p>]]></content>
+      
+      <categories>
+          
+          <category> General </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+  
+  
+    
+    <entry>
+      <title>search</title>
+      <link href="/search/index.html"/>
+      <url>/search/index.html</url>
+      <content type="html"><![CDATA[]]></content>
+    </entry>
+    
+    <entry>
+      <title>about</title>
+      <link href="/about/index.html"/>
+      <url>/about/index.html</url>
+      <content type="html"><![CDATA[<p>Work in progress.</p>]]></content>
+    </entry>
+    
+  
+</search>
