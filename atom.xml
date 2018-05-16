@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.fiery.me/"/>
-  <updated>2018-05-07T11:30:58.626Z</updated>
+  <updated>2018-05-16T11:57:22.577Z</updated>
   <id>https://blog.fiery.me/</id>
   
   <author>
@@ -17,11 +17,57 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>This blog is now hosted at GitHub Pages!</title>
+    <title>Clarification about the domains used for the safe</title>
+    <link href="https://blog.fiery.me/2018/05/16/Clarification-about-the-domains-used-for-the-safe/"/>
+    <id>https://blog.fiery.me/2018/05/16/Clarification-about-the-domains-used-for-the-safe/</id>
+    <published>2018-05-16T11:52:18.000Z</published>
+    <updated>2018-05-16T11:57:22.577Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Hello there,&lt;/p&gt;
+&lt;p&gt;Some of you guys may have noticed that the safe has changed the domain used to serve files uploaded to it at least 3
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Uptime monitor</title>
+    <link href="https://blog.fiery.me/2018/05/16/Uptime-monitor/"/>
+    <id>https://blog.fiery.me/2018/05/16/Uptime-monitor/</id>
+    <published>2018-05-16T11:42:57.000Z</published>
+    <updated>2018-05-16T11:49:51.601Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Hello there,&lt;/p&gt;
+&lt;p&gt;We now have uptime monitors for the safe and the hastebin that you can check out from here: &lt;a
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>This blog is now hosted at GitHub Pages</title>
     <link href="https://blog.fiery.me/2018/05/07/This-blog-is-now-hosted-at-GitHub-Pages/"/>
     <id>https://blog.fiery.me/2018/05/07/This-blog-is-now-hosted-at-GitHub-Pages/</id>
     <published>2018-05-07T11:22:44.000Z</published>
-    <updated>2018-05-07T11:30:58.626Z</updated>
+    <updated>2018-05-16T11:49:58.886Z</updated>
     
     <summary type="html">
     
@@ -46,7 +92,7 @@
     <link href="https://blog.fiery.me/2018/05/07/Added-hastebin/"/>
     <id>https://blog.fiery.me/2018/05/07/Added-hastebin/</id>
     <published>2018-05-07T11:17:03.000Z</published>
-    <updated>2018-05-07T11:29:59.743Z</updated>
+    <updated>2018-05-16T12:02:24.292Z</updated>
     
     <summary type="html">
     
@@ -71,7 +117,7 @@
     <link href="https://blog.fiery.me/2018/04/14/Bash-uploader/"/>
     <id>https://blog.fiery.me/2018/04/14/Bash-uploader/</id>
     <published>2018-04-13T17:33:00.000Z</published>
-    <updated>2018-05-07T11:29:45.779Z</updated>
+    <updated>2018-05-16T12:01:44.692Z</updated>
     
     <summary type="html">
     
@@ -92,11 +138,11 @@
   </entry>
   
   <entry>
-    <title>No-JS Uploader!</title>
+    <title>No-JS Uploader</title>
     <link href="https://blog.fiery.me/2018/04/13/No-JS-Uploader/"/>
     <id>https://blog.fiery.me/2018/04/13/No-JS-Uploader/</id>
     <published>2018-04-13T16:47:00.000Z</published>
-    <updated>2018-04-13T16:55:42.309Z</updated>
+    <updated>2018-05-16T11:50:04.614Z</updated>
     
     <summary type="html">
     
@@ -118,11 +164,11 @@
   </entry>
   
   <entry>
-    <title>Migrated to Hexo!</title>
+    <title>Migrated to Hexo</title>
     <link href="https://blog.fiery.me/2018/04/02/Migrated-to-Hexo/"/>
     <id>https://blog.fiery.me/2018/04/02/Migrated-to-Hexo/</id>
     <published>2018-04-02T13:02:00.000Z</published>
-    <updated>2018-04-02T13:15:30.817Z</updated>
+    <updated>2018-05-16T12:01:29.979Z</updated>
     
     <summary type="html">
     
@@ -148,7 +194,7 @@
     <link href="https://blog.fiery.me/2018/03/29/Chunked-Uploads/"/>
     <id>https://blog.fiery.me/2018/03/29/Chunked-Uploads/</id>
     <published>2018-03-28T20:50:47.000Z</published>
-    <updated>2018-04-02T13:17:15.002Z</updated>
+    <updated>2018-05-16T11:57:44.702Z</updated>
     
     <summary type="html">
     
@@ -158,8 +204,8 @@
         
           &lt;p&gt;Yayyyy~!&lt;/p&gt;
 &lt;p&gt;Good news! The safe now supports chunked uploads!&lt;/p&gt;
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-&lt;p&gt;Chunked uploads? Nani the heck is
+&lt;p&gt;Chunked uploads? Nani the heck is that?&lt;/p&gt;
+&lt;p&gt;Well, basically,
         
       
     
@@ -171,11 +217,11 @@
   </entry>
   
   <entry>
-    <title>Configurable file name length~</title>
+    <title>Configurable file name length</title>
     <link href="https://blog.fiery.me/2018/03/24/Configurable-file-name-length/"/>
     <id>https://blog.fiery.me/2018/03/24/Configurable-file-name-length/</id>
     <published>2018-03-24T15:04:45.000Z</published>
-    <updated>2018-04-02T13:17:12.382Z</updated>
+    <updated>2018-05-16T11:51:10.218Z</updated>
     
     <summary type="html">
     
@@ -183,8 +229,8 @@
       
         
         
-          &lt;p&gt;Hi hi, just another blog post about safe.fiery.me here~&lt;/p&gt;
-&lt;p&gt;If you’re already registered, you can now set your preferred file name
+          &lt;p&gt;Hi hi, just another blog post about safe.fiery.me here.&lt;/p&gt;
+&lt;p&gt;If you already have an account, you can now set your preferred file name
         
       
     
@@ -200,7 +246,7 @@
     <link href="https://blog.fiery.me/2018/03/14/Some-changes-to-the-safe/"/>
     <id>https://blog.fiery.me/2018/03/14/Some-changes-to-the-safe/</id>
     <published>2018-03-14T07:36:49.000Z</published>
-    <updated>2018-04-02T13:17:04.049Z</updated>
+    <updated>2018-05-16T11:51:35.723Z</updated>
     
     <summary type="html">
     
@@ -224,7 +270,7 @@
     <link href="https://blog.fiery.me/2018/01/23/My-Discord/"/>
     <id>https://blog.fiery.me/2018/01/23/My-Discord/</id>
     <published>2018-01-23T13:46:10.000Z</published>
-    <updated>2018-04-02T13:17:07.222Z</updated>
+    <updated>2018-05-16T12:02:31.321Z</updated>
     
     <summary type="html">
     
@@ -232,7 +278,7 @@
       
         
         
-          &lt;p&gt;So yeah, uh.. I got a Discord account. If you got Discord too, and you feel like talking to me, um, feel free to add mine. It’s
+          &lt;p&gt;So yeah, uh.. I have a Discord account. If you have Discord too, and you feel like talking to me or anything, umm, feel free to add
         
       
     
