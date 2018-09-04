@@ -7,6 +7,30 @@
     </url>
 
     <url>
+        <loc>https://blog.fiery.me/2018/05/16/Clarification-about-the-domains-used-for-the-safe/</loc>
+        <lastmod>2018-09-04T16:29:53.801Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.fiery.me/2018/05/16/Uptime-monitor/</loc>
+        <lastmod>2018-09-04T16:29:44.273Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.fiery.me/2018/09/04/Virus-scanning/</loc>
+        <lastmod>2018-09-04T16:29:41.585Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://blog.fiery.me/2018/05/07/This-blog-is-now-hosted-at-GitHub-Pages/</loc>
         <lastmod>2018-07-27T11:53:18.589Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -71,14 +95,6 @@
     </url>
 
     <url>
-        <loc>https://blog.fiery.me/2018/05/16/Clarification-about-the-domains-used-for-the-safe/</loc>
-        <lastmod>2018-05-16T11:57:22.577Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>https://blog.fiery.me/2018/03/14/Some-changes-to-the-safe/</loc>
         <lastmod>2018-05-16T11:51:35.723Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -89,14 +105,6 @@
     <url>
         <loc>https://blog.fiery.me/2018/03/24/Configurable-file-name-length/</loc>
         <lastmod>2018-05-16T11:51:10.218Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://blog.fiery.me/2018/05/16/Uptime-monitor/</loc>
-        <lastmod>2018-05-16T11:49:51.601Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
