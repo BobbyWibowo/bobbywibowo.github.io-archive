@@ -3,17 +3,12 @@
 
     <sitemap>
         <loc>https://blog.fiery.me/post-sitemap.xml</loc>
-        <lastmod>2018-09-04T16:29:53.801Z</lastmod>
+        <lastmod>2018-09-29T15:15:37.360Z</lastmod>
     </sitemap>
 
     <sitemap>
         <loc>https://blog.fiery.me/page-sitemap.xml</loc>
         <lastmod>2018-05-16T12:10:49.956Z</lastmod>
-    </sitemap>
-
-    <sitemap>
-        <loc>https://blog.fiery.me/category-sitemap.xml</loc>
-        <lastmod>2018-09-04T16:29:44.273Z</lastmod>
     </sitemap>
 
 </sitemapindex>

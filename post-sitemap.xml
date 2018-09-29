@@ -7,8 +7,8 @@
     </url>
 
     <url>
-        <loc>https://blog.fiery.me/2018/05/16/Clarification-about-the-domains-used-for-the-safe/</loc>
-        <lastmod>2018-09-04T16:29:53.801Z</lastmod>
+        <loc>https://blog.fiery.me/2018/09/04/Virus-scanning/</loc>
+        <lastmod>2018-09-29T15:15:37.360Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -16,15 +16,7 @@
 
     <url>
         <loc>https://blog.fiery.me/2018/05/16/Uptime-monitor/</loc>
-        <lastmod>2018-09-04T16:29:44.273Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://blog.fiery.me/2018/09/04/Virus-scanning/</loc>
-        <lastmod>2018-09-04T16:29:41.585Z</lastmod>
+        <lastmod>2018-09-29T15:15:34.404Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -32,63 +24,7 @@
 
     <url>
         <loc>https://blog.fiery.me/2018/05/07/This-blog-is-now-hosted-at-GitHub-Pages/</loc>
-        <lastmod>2018-07-27T11:53:18.589Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://blog.fiery.me/2018/04/13/No-JS-Uploader/</loc>
-        <lastmod>2018-07-27T11:53:13.777Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://blog.fiery.me/2018/07/27/Lowered-safe-s-max-file-size/</loc>
-        <lastmod>2018-07-27T11:52:54.509Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://blog.fiery.me/2018/01/23/My-Discord/</loc>
-        <lastmod>2018-05-16T12:02:31.321Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://blog.fiery.me/2018/05/07/Added-hastebin/</loc>
-        <lastmod>2018-05-16T12:02:24.292Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://blog.fiery.me/2018/04/14/Bash-uploader/</loc>
-        <lastmod>2018-05-16T12:01:44.692Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://blog.fiery.me/2018/04/02/Migrated-to-Hexo/</loc>
-        <lastmod>2018-05-16T12:01:29.979Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://blog.fiery.me/2018/03/29/Chunked-Uploads/</loc>
-        <lastmod>2018-05-16T11:57:44.702Z</lastmod>
+        <lastmod>2018-09-29T15:15:30.780Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -96,7 +32,39 @@
 
     <url>
         <loc>https://blog.fiery.me/2018/03/14/Some-changes-to-the-safe/</loc>
-        <lastmod>2018-05-16T11:51:35.723Z</lastmod>
+        <lastmod>2018-09-29T15:15:25.680Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.fiery.me/2018/04/13/No-JS-Uploader/</loc>
+        <lastmod>2018-09-29T15:15:21.188Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.fiery.me/2018/01/23/My-Discord/</loc>
+        <lastmod>2018-09-29T15:15:15.556Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.fiery.me/2018/04/02/Migrated-to-Hexo/</loc>
+        <lastmod>2018-09-29T15:15:08.828Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.fiery.me/2018/07/27/Lowered-safe-s-max-file-size/</loc>
+        <lastmod>2018-09-29T15:15:04.108Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -104,7 +72,47 @@
 
     <url>
         <loc>https://blog.fiery.me/2018/03/24/Configurable-file-name-length/</loc>
-        <lastmod>2018-05-16T11:51:10.218Z</lastmod>
+        <lastmod>2018-09-29T15:14:57.724Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.fiery.me/2018/05/07/Added-hastebin/</loc>
+        <lastmod>2018-09-29T15:14:53.072Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.fiery.me/2018/04/14/Bash-uploader/</loc>
+        <lastmod>2018-09-29T15:14:48.548Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.fiery.me/2018/03/29/Chunked-Uploads/</loc>
+        <lastmod>2018-09-29T15:14:42.896Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.fiery.me/2018/05/16/Clarification-about-the-domains-used-for-the-safe/</loc>
+        <lastmod>2018-09-29T15:14:38.140Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.fiery.me/2018/09/29/Extra-domain/</loc>
+        <lastmod>2018-09-29T15:14:32.120Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
