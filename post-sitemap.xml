@@ -7,6 +7,14 @@
     </url>
 
     <url>
+        <loc>https://blog.fiery.me/2018/09/29/Extra-domain/</loc>
+        <lastmod>2018-09-29T15:18:13.951Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://blog.fiery.me/2018/09/04/Virus-scanning/</loc>
         <lastmod>2018-09-29T15:15:37.360Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -105,14 +113,6 @@
     <url>
         <loc>https://blog.fiery.me/2018/05/16/Clarification-about-the-domains-used-for-the-safe/</loc>
         <lastmod>2018-09-29T15:14:38.140Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://blog.fiery.me/2018/09/29/Extra-domain/</loc>
-        <lastmod>2018-09-29T15:14:32.120Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
