@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.fiery.me/"/>
-  <updated>2018-09-29T15:18:39.627Z</updated>
+  <updated>2018-10-01T14:30:15.296Z</updated>
   <id>https://blog.fiery.me/</id>
   
   <author>
@@ -17,11 +17,34 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Extra domain</title>
+    <title>Issue with Cloudflare API and its impact to the safe</title>
+    <link href="https://blog.fiery.me/2018/10/01/Issue-with-Cloudflare-API/"/>
+    <id>https://blog.fiery.me/2018/10/01/Issue-with-Cloudflare-API/</id>
+    <published>2018-10-01T14:09:48.000Z</published>
+    <updated>2018-10-01T14:30:15.296Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Hi guys,&lt;/p&gt;
+&lt;p&gt;Sorry for this, in the past few days, a bit over 7 days to be exact, we have been having some issue with Cloudflare API.
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Extra domain for the safe</title>
     <link href="https://blog.fiery.me/2018/09/29/Extra-domain/"/>
     <id>https://blog.fiery.me/2018/09/29/Extra-domain/</id>
     <published>2018-09-29T15:07:04.000Z</published>
-    <updated>2018-09-29T15:18:39.627Z</updated>
+    <updated>2018-10-01T14:28:11.892Z</updated>
     
     <summary type="html">
     
