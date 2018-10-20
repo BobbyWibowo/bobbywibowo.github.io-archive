@@ -3,6 +3,15 @@
   
     
     <entry>
+      <title>Re-allowed HTM/HTML uploads</title>
+      <link href="/2018/10/21/Re-allowed-HTM-HTML-uploads/"/>
+      <url>/2018/10/21/Re-allowed-HTM-HTML-uploads/</url>
+      <content type="html"><![CDATA[<p>Hi there,</p><p>Another update to the safe. HTM/HTML files are now allowed again. But unlike before where they were served as <code>text/html</code>, now they will be served as <code>text/plain</code>. This should solve phising attempts while still allowing people to  use the safe to store HTM/HTML files.</p><p>That’s all. See ya.</p>]]></content>
+      
+      
+    </entry>
+    
+    <entry>
       <title>Issue with Cloudflare API and its impact to the safe</title>
       <link href="/2018/10/01/Issue-with-Cloudflare-API/"/>
       <url>/2018/10/01/Issue-with-Cloudflare-API/</url>
