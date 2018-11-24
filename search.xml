@@ -3,6 +3,15 @@
   
     
     <entry>
+      <title>Short downtime</title>
+      <link href="/2018/11/24/Short-downtime/"/>
+      <url>/2018/11/24/Short-downtime/</url>
+      <content type="html"><![CDATA[<p>Hello there,</p><p>Just a heads up that <code>safe.fiery.me</code> will be down for the next 15 to 30 minutes, reason being I’m trying to switch to using <code>nvm</code> to manage node versions.</p><p><code>i.fiery.me</code> should still remain online to serve existing files.</p><p>Sorry for the inconvenience!</p>]]></content>
+      
+      
+    </entry>
+    
+    <entry>
       <title>Re-allowed HTM/HTML uploads</title>
       <link href="/2018/10/21/Re-allowed-HTM-HTML-uploads/"/>
       <url>/2018/10/21/Re-allowed-HTM-HTML-uploads/</url>

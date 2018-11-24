@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.fiery.me/"/>
-  <updated>2018-10-20T22:06:44.993Z</updated>
+  <updated>2018-11-24T09:14:45.293Z</updated>
   <id>https://blog.fiery.me/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Short downtime</title>
+    <link href="https://blog.fiery.me/2018/11/24/Short-downtime/"/>
+    <id>https://blog.fiery.me/2018/11/24/Short-downtime/</id>
+    <published>2018-11-24T09:13:16.000Z</published>
+    <updated>2018-11-24T09:14:45.293Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Hello there,&lt;/p&gt;
+&lt;p&gt;Just a heads up that &lt;code&gt;safe.fiery.me&lt;/code&gt; will be down for the next 15 to 30 minutes, reason being I’m trying
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>Re-allowed HTM/HTML uploads</title>
