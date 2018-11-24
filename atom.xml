@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.fiery.me/"/>
-  <updated>2018-11-24T09:14:45.293Z</updated>
+  <updated>2018-11-24T13:12:30.807Z</updated>
   <id>https://blog.fiery.me/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>New paste service</title>
+    <link href="https://blog.fiery.me/2018/11/24/New-paste-service/"/>
+    <id>https://blog.fiery.me/2018/11/24/New-paste-service/</id>
+    <published>2018-11-24T13:07:10.000Z</published>
+    <updated>2018-11-24T13:12:30.807Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Hi again!&lt;/p&gt;
+&lt;p&gt;Just a heads up that we now have a new paste service at &lt;a href=&quot;https://paste.fiery.me&quot; target=&quot;_blank&quot;
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>Short downtime</title>

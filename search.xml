@@ -3,6 +3,15 @@
   
     
     <entry>
+      <title>New paste service</title>
+      <link href="/2018/11/24/New-paste-service/"/>
+      <url>/2018/11/24/New-paste-service/</url>
+      <content type="html"><![CDATA[<p>Hi again!</p><p>Just a heads up that we now have a new paste service at <a href="https://paste.fiery.me" target="_blank" rel="noopener">https://paste.fiery.me</a>, which is using <a href="https://github.com/PrivateBin/PrivateBin/" target="_blank" rel="noopener">PrivateBin</a>.</p><p>Previously that domain used to host a <a href="https://github.com/seejohnrun/haste-server" target="_blank" rel="noopener">hastebin</a> server, but I figured it was about time to change it since I’ve been meaning to do so for quite a while already.</p><p>I’ve configured the paste’s max size to 30MB, so enjoy.</p>]]></content>
+      
+      
+    </entry>
+    
+    <entry>
       <title>Short downtime</title>
       <link href="/2018/11/24/Short-downtime/"/>
       <url>/2018/11/24/Short-downtime/</url>
