@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.fiery.me/"/>
-  <updated>2018-11-24T13:12:30.807Z</updated>
+  <updated>2018-12-11T03:10:20.581Z</updated>
   <id>https://blog.fiery.me/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Recent changes to the safe</title>
+    <link href="https://blog.fiery.me/2018/12/11/Recent-changes-to-the-safe/"/>
+    <id>https://blog.fiery.me/2018/12/11/Recent-changes-to-the-safe/</id>
+    <published>2018-12-11T02:32:38.000Z</published>
+    <updated>2018-12-11T03:10:20.581Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Hello there, another update post here~&lt;/p&gt;
+&lt;p&gt;If you haven’t noticed, a few days ago we’ve disabled URL uploads. It was mainly because
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>New paste service</title>

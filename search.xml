@@ -3,6 +3,15 @@
   
     
     <entry>
+      <title>Recent changes to the safe</title>
+      <link href="/2018/12/11/Recent-changes-to-the-safe/"/>
+      <url>/2018/12/11/Recent-changes-to-the-safe/</url>
+      <content type="html"><![CDATA[<p>Hello there, another update post here~</p><p>If you haven’t noticed, a few days ago we’ve disabled URL uploads. It was mainly because DuckDuckGo stopped serving <code>Content-Length</code> header for their proxy. The header was crucial so that the server could predict the file size without having  to download it.</p><p>Other than that, file extensions that do not have specific mime types will now be served as <code>text/plain</code> instead of <code>application/octet-stream</code>. What this means is that, browsers will now stop asking those files to be saved and instead  will try to display their content, as text, right on your browser (usually you can still configure this behavior on your browser’s preferences).</p><p>To be specific, this only applies to file extensions that aren’t being recognized by nginx’s mime types table. Most common extensions will work as normal.</p><p>You can still save the content by “right click &gt; save page as”, or something along that line.</p><p>That’s all for now. See ya~</p>]]></content>
+      
+      
+    </entry>
+    
+    <entry>
       <title>New paste service</title>
       <link href="/2018/11/24/New-paste-service/"/>
       <url>/2018/11/24/New-paste-service/</url>
