@@ -7,6 +7,14 @@
     </url>
 
     <url>
+        <loc>https://blog.fiery.me/2019/01/26/Azur-Lane/</loc>
+        <lastmod>2019-01-26T12:34:00.672Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://blog.fiery.me/2018/12/11/Recent-changes-to-the-safe/</loc>
         <lastmod>2018-12-11T03:10:20.581Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -89,14 +97,6 @@
     <url>
         <loc>https://blog.fiery.me/2018/04/13/No-JS-Uploader/</loc>
         <lastmod>2018-09-29T15:15:21.188Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://blog.fiery.me/2018/01/23/My-Discord/</loc>
-        <lastmod>2018-09-29T15:15:15.556Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
