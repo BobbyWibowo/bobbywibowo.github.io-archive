@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.fiery.me/"/>
-  <updated>2019-01-26T12:34:00.672Z</updated>
+  <updated>2019-01-31T17:25:29.292Z</updated>
   <id>https://blog.fiery.me/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Uptime monitor (update)</title>
+    <link href="https://blog.fiery.me/2019/02/01/Uptime-monitor/"/>
+    <id>https://blog.fiery.me/2019/02/01/Uptime-monitor/</id>
+    <published>2019-01-31T17:18:00.000Z</published>
+    <updated>2019-01-31T17:25:29.292Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;em&gt;Edited post. This was originally posted at 16/05/2018.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Hello there,&lt;/p&gt;
+&lt;p&gt;We now have uptime monitors for the safe and
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>Azur Lane</title>
@@ -240,29 +264,6 @@
         
           &lt;p&gt;Hello there,&lt;/p&gt;
 &lt;p&gt;Some of you guys may have noticed that the safe has changed the domain used to serve files uploaded to it at least 3
-        
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Uptime monitor</title>
-    <link href="https://blog.fiery.me/2018/05/16/Uptime-monitor/"/>
-    <id>https://blog.fiery.me/2018/05/16/Uptime-monitor/</id>
-    <published>2018-05-16T11:42:57.000Z</published>
-    <updated>2018-09-29T15:15:34.404Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;Hello there,&lt;/p&gt;
-&lt;p&gt;We now have uptime monitors for the safe and the hastebin that you can check out from here: &lt;a
         
       
     

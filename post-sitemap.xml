@@ -7,6 +7,14 @@
     </url>
 
     <url>
+        <loc>https://blog.fiery.me/2019/02/01/Uptime-monitor/</loc>
+        <lastmod>2019-01-31T17:25:29.292Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://blog.fiery.me/2019/01/26/Azur-Lane/</loc>
         <lastmod>2019-01-26T12:34:00.672Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -65,14 +73,6 @@
     <url>
         <loc>https://blog.fiery.me/2018/09/04/Virus-scanning/</loc>
         <lastmod>2018-09-29T15:15:37.360Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://blog.fiery.me/2018/05/16/Uptime-monitor/</loc>
-        <lastmod>2018-09-29T15:15:34.404Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
