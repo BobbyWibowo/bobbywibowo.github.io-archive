@@ -1,187 +1,267 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search> 
   
+  
     
     <entry>
       <title>Uptime monitor (update)</title>
       <link href="/2019/02/01/Uptime-monitor/"/>
       <url>/2019/02/01/Uptime-monitor/</url>
-      <content type="html"><![CDATA[<p><em>Edited post. This was originally posted at 16/05/2018.</em></p><p>Hello there,</p><p>We now have uptime monitors for the safe and the <del>hastebin</del> PrivateBin that you can check out from here: <a href="https://stats.uptimerobot.com/OPwo4uOz8" target="_blank" rel="noopener">https://stats.uptimerobot.com/OPwo4uOz8</a>. It’s powered by <a href="https://uptimerobot.com/" target="_blank" rel="noopener">Uptime Robot</a>,  so props to the folks in there.</p><p><del>I wanted to use <em>status.fiery.me</em> as its custom domain, but Uptime Robot seem to have issues with their certificates when being used with Cloudflare’s Full SSL (Strict), so I had no choice but to link the default URL in this blog post.</del></p><p>* <a href="https://status.fiery.me" target="_blank" rel="noopener">https://status.fiery.me</a> will now redirect to the URL above.</p><p>On a side note, <em>i.fiery.me</em> is the domain used to serve files uploaded to the safe. Unlike the safe which runs with Node + Nginx, <em>i.fiery.me</em> runs only with Nginx, which guarantees that even when Node dies, files can still be served. So,  I made an extra monitor for it.</p><p>Anyways, that’s all. I hope you guys find it useful one way or another.</p><p>See ya.</p><p><strong>UPDATE 01/02/2019:</strong> Update, uwu~</p><p>A user recently mentioned that Uptime Robot isn’t fast enough. I can certainly agree with that as it only checks every 5 minutes, so at most it can only be used as rough estimates of the total uptime (I, on the other hand, intended that as a “proof” that  the safe have +99% uptime).</p><p>The said user also recommended me an uptime check tool from Website Planet, that seems to only check the uptime everytime you actually visit the status page.</p><p>It seems to work like any other one-time uptime checker tool thing, but it looks pretty good to me, so I’ll also link it down below.</p><p><code>https://www.websiteplanet.com/webtools/down-or-not?page=https%3A%2F%2Fsafe.fiery.me%2Fnojs</code></p><p>One thing to note when using this sort of tool, if you want immediate (a.k.a not “cached”) result, you should always check uptime status of the <code>/nojs</code> route instead (<code>https://safe.fiery.me/nojs</code>).</p><p>Reason being, we are caching almost all front-end pages, excluding that route. So when the safe is actually down, you will not be able to upload anything, but can still access the safe’s homepage just fine (<code>/nojs</code> route on the other hand is  a dynamic page, so we are not caching that).</p>]]></content>
+      
+        <content type="html"><![CDATA[<p><em>Edited post. This was originally posted at 16/05/2018.</em></p><p>Hello there,</p><p>We now have uptime monitors for the safe and the <del>hastebin</del> PrivateBin that you can check out from here: <a href="https://stats.uptimerobot.com/OPwo4uOz8" target="_blank" rel="noopener">https://stats.uptimerobot.com/OPwo4uOz8</a>. It’s powered by <a href="https://uptimerobot.com/" target="_blank" rel="noopener">Uptime Robot</a>, so props to the folks in there.</p><p><del>I wanted to use <em>status.fiery.me</em> as its custom domain, but Uptime Robot seem to have issues with their certificates when being used with Cloudflare’s Full SSL (Strict), so I had no choice but to link the default URL in this blog post.</del></p><p>* <a href="https://status.fiery.me" target="_blank" rel="noopener">https://status.fiery.me</a> will now redirect to the URL above.</p><p>On a side note, <em>i.fiery.me</em> is the domain used to serve files uploaded to the safe. Unlike the safe which runs with Node + Nginx, <em>i.fiery.me</em> runs only with Nginx, which guarantees that even when Node dies, files can still be served. So, I made an extra monitor for it.</p><p>Anyways, that’s all. I hope you guys find it useful one way or another.</p><p>See ya.</p><p><strong>UPDATE 01/02/2019:</strong> Update, uwu~</p><p>A user recently mentioned that Uptime Robot isn’t fast enough. I can certainly agree with that as it only checks every 5 minutes, so at most it can only be used as rough estimates of the total uptime (I, on the other hand, intended that as a “proof” that the safe have +99% uptime).</p><p>The said user also recommended me an uptime check tool from Website Planet, that seems to only check the uptime everytime you actually visit the status page.</p><p>It seems to work like any other one-time uptime checker tool thing, but it looks pretty good to me, so I’ll also link it down below.</p><p><code>https://www.websiteplanet.com/webtools/down-or-not?page=https%3A%2F%2Fsafe.fiery.me%2Fnojs</code></p><p>One thing to note when using this sort of tool, if you want immediate (a.k.a not “cached”) result, you should always check uptime status of the <code>/nojs</code> route instead (<code>https://safe.fiery.me/nojs</code>).</p><p>Reason being, we are caching almost all front-end pages, excluding that route. So when the safe is actually down, you will not be able to upload anything, but can still access the safe’s homepage just fine (<code>/nojs</code> route on the other hand is a dynamic page, so we are not caching that).</p>]]></content>
+      
       
       
     </entry>
+    
+    
     
     <entry>
       <title>Azur Lane</title>
       <link href="/2019/01/26/Azur-Lane/"/>
       <url>/2019/01/26/Azur-Lane/</url>
-      <content type="html"><![CDATA[<p>Hello guys!</p><p>First post in 2019!</p><p>No, this is not a sponsored blog post, kek.</p><p>Anyways! I’ve been playing Azur Lane (EN) for a couple months by now, and so I feel like looking for some more friends, or something like that. So yeah, I decided to make this post.</p><p>If any of you guys play in Avrora server, and feel like adding me or anything, please feel free to do so! My username is <code>BobbyWibowo</code>.</p><p>Kisaragi best waifu!</p><p>…</p><p>That’s it, I didn’t really have anything specific in mind to talk about, so see ya!</p>]]></content>
+      
+        <content type="html"><![CDATA[<p>Hello guys!</p><p>First post in 2019!</p><p>No, this is not a sponsored blog post, kek.</p><p>Anyways! I’ve been playing Azur Lane (EN) for a couple months by now, and so I feel like looking for some more friends, or something like that. So yeah, I decided to make this post.</p><p>If any of you guys play in Avrora server, and feel like adding me or anything, please feel free to do so! My username is <code>BobbyWibowo</code>.</p><p>Kisaragi best waifu!</p><p>…</p><p>That’s it, I didn’t really have anything specific in mind to talk about, so see ya!</p>]]></content>
+      
       
       
     </entry>
+    
+    
     
     <entry>
       <title>Recent changes to the safe</title>
       <link href="/2018/12/11/Recent-changes-to-the-safe/"/>
       <url>/2018/12/11/Recent-changes-to-the-safe/</url>
-      <content type="html"><![CDATA[<p>Hello there, another update post here~</p><p>If you haven’t noticed, a few days ago we’ve disabled URL uploads. It was mainly because DuckDuckGo stopped serving <code>Content-Length</code> header for their proxy. The header was crucial so that the server could predict the file size without having  to download it.</p><p>Other than that, file extensions that do not have specific mime types will now be served as <code>text/plain</code> instead of <code>application/octet-stream</code>. What this means is that, browsers will now stop asking those files to be saved and instead  will try to display their content, as text, right on your browser (usually you can still configure this behavior on your browser’s preferences).</p><p>To be specific, this only applies to file extensions that aren’t being recognized by nginx’s mime types table. Most common extensions will work as normal.</p><p>You can still save the content by “right click &gt; save page as”, or something along that line.</p><p>That’s all for now. See ya~</p>]]></content>
+      
+        <content type="html"><![CDATA[<p>Hello there, another update post here~</p><p>If you haven’t noticed, a few days ago we’ve disabled URL uploads. It was mainly because DuckDuckGo stopped serving <code>Content-Length</code> header for their proxy. The header was crucial so that the server could predict the file size without having to download it.</p><p>Other than that, file extensions that do not have specific mime types will now be served as <code>text/plain</code> instead of <code>application/octet-stream</code>. What this means is that, browsers will now stop asking those files to be saved and instead will try to display their content, as text, right on your browser (usually you can still configure this behavior on your browser’s preferences).</p><p>To be specific, this only applies to file extensions that aren’t being recognized by nginx’s mime types table. Most common extensions will work as normal.</p><p>You can still save the content by “right click &gt; save page as”, or something along that line.</p><p>That’s all for now. See ya~</p>]]></content>
+      
       
       
     </entry>
+    
+    
     
     <entry>
       <title>New paste service</title>
       <link href="/2018/11/24/New-paste-service/"/>
       <url>/2018/11/24/New-paste-service/</url>
-      <content type="html"><![CDATA[<p>Hi again!</p><p>Just a heads up that we now have a new paste service at <a href="https://paste.fiery.me" target="_blank" rel="noopener">https://paste.fiery.me</a>, which is using <a href="https://github.com/PrivateBin/PrivateBin/" target="_blank" rel="noopener">PrivateBin</a>.</p><p>Previously that domain used to host a <a href="https://github.com/seejohnrun/haste-server" target="_blank" rel="noopener">hastebin</a> server, but I figured it was about time to change it since I’ve been meaning to do so for quite a while already.</p><p>I’ve configured the paste’s max size to 30MB, so enjoy.</p>]]></content>
+      
+        <content type="html"><![CDATA[<p>Hi again!</p><p>Just a heads up that we now have a new paste service at <a href="https://paste.fiery.me" target="_blank" rel="noopener">https://paste.fiery.me</a>, which is using <a href="https://github.com/PrivateBin/PrivateBin/" target="_blank" rel="noopener">PrivateBin</a>.</p><p>Previously that domain used to host a <a href="https://github.com/seejohnrun/haste-server" target="_blank" rel="noopener">hastebin</a> server, but I figured it was about time to change it since I’ve been meaning to do so for quite a while already.</p><p>I’ve configured the paste’s max size to 30MB, so enjoy.</p>]]></content>
+      
       
       
     </entry>
+    
+    
     
     <entry>
       <title>Short downtime</title>
       <link href="/2018/11/24/Short-downtime/"/>
       <url>/2018/11/24/Short-downtime/</url>
-      <content type="html"><![CDATA[<p>Hello there,</p><p>Just a heads up that <code>safe.fiery.me</code> will be down for the next 15 to 30 minutes, reason being I’m trying to switch to using <code>nvm</code> to manage node versions.</p><p><code>i.fiery.me</code> should still remain online to serve existing files.</p><p>Sorry for the inconvenience!</p>]]></content>
+      
+        <content type="html"><![CDATA[<p>Hello there,</p><p>Just a heads up that <code>safe.fiery.me</code> will be down for the next 15 to 30 minutes, reason being I’m trying to switch to using <code>nvm</code> to manage node versions.</p><p><code>i.fiery.me</code> should still remain online to serve existing files.</p><p>Sorry for the inconvenience!</p>]]></content>
+      
       
       
     </entry>
+    
+    
     
     <entry>
       <title>Re-allowed HTM/HTML uploads</title>
       <link href="/2018/10/21/Re-allowed-HTM-HTML-uploads/"/>
       <url>/2018/10/21/Re-allowed-HTM-HTML-uploads/</url>
-      <content type="html"><![CDATA[<p>Hi there,</p><p>Another update to the safe. HTM/HTML files are now allowed again. But unlike before where they were served as <code>text/html</code>, now they will be served as <code>text/plain</code>. This should solve phising attempts while still allowing people to  use the safe to store HTM/HTML files.</p><p>That’s all. See ya.</p>]]></content>
+      
+        <content type="html"><![CDATA[<p>Hi there,</p><p>Another update to the safe. HTM/HTML files are now allowed again. But unlike before where they were served as <code>text/html</code>, now they will be served as <code>text/plain</code>. This should solve phising attempts while still allowing people to use the safe to store HTM/HTML files.</p><p>That’s all. See ya.</p>]]></content>
+      
       
       
     </entry>
+    
+    
     
     <entry>
       <title>Issue with Cloudflare API and its impact to the safe</title>
       <link href="/2018/10/01/Issue-with-Cloudflare-API/"/>
       <url>/2018/10/01/Issue-with-Cloudflare-API/</url>
-      <content type="html"><![CDATA[<p>Hi guys,</p><p>Sorry for this, in the past few days, a bit over 7 days to be exact, we have been having some issue with Cloudflare API. Mainly, we keep on getting “TCP connection reset” when making any requests to the API. I have contacted the server host but I was  told to contact Cloudflare directly (to be honest I was more inclined to believe it was an issue with the server host).</p><p>So what does that mean for us exactly?</p><p>First, we are using Cloudflare as the CDN for your data (<a href="https://en.wikipedia.org/wiki/Content_delivery_network" target="_blank" rel="noopener">read more</a>). When you delete your files from safe.fiery.me, they will immediately be deleted from our server, but they will still  exist in Cloudflare’s caches. So we have automated this so that whenever you delete your files, our server will also make a request to Cloudflare API, telling them to also delete the files from their caches. But now that we are unable to connect to  Cloudflare API, your files will still remain in Cloudflare’s caches and be accessible through the URLs we have assigned to your files.</p><p>But still, the actual situation is not really that bad. All these times, we have always had <code>must-revalidate</code> and <code>proxy-revalidate</code> in the HTTP headers of all of the files served through our server (<a href="https://support.cloudflare.com/hc/en-us/articles/115003206852-Origin-Cache-Control" target="_blank" rel="noopener">read more</a>),  which means Cloudflare will keep on revalidating the files; checking things like whether they are still serving the exact same files or whether the files themselves still exist in our server.</p><p>Though even then, the process will not be instantaneous and may even take up to a full 24 hours until Cloudflare notice the files have been deleted from our server.</p><p>So yeah, please bear with this for now. Meanwhile I will try to contact Cloudflare for more information.</p>]]></content>
+      
+        <content type="html"><![CDATA[<p>Hi guys,</p><p>Sorry for this, in the past few days, a bit over 7 days to be exact, we have been having some issue with Cloudflare API. Mainly, we keep on getting “TCP connection reset” when making any requests to the API. I have contacted the server host but I was told to contact Cloudflare directly (to be honest I was more inclined to believe it was an issue with the server host).</p><p>So what does that mean for us exactly?</p><p>First, we are using Cloudflare as the CDN for your data (<a href="https://en.wikipedia.org/wiki/Content_delivery_network" target="_blank" rel="noopener">read more</a>). When you delete your files from safe.fiery.me, they will immediately be deleted from our server, but they will still exist in Cloudflare’s caches. So we have automated this so that whenever you delete your files, our server will also make a request to Cloudflare API, telling them to also delete the files from their caches. But now that we are unable to connect to Cloudflare API, your files will still remain in Cloudflare’s caches and be accessible through the URLs we have assigned to your files.</p><p>But still, the actual situation is not really that bad. All these times, we have always had <code>must-revalidate</code> and <code>proxy-revalidate</code> in the HTTP headers of all of the files served through our server (<a href="https://support.cloudflare.com/hc/en-us/articles/115003206852-Origin-Cache-Control" target="_blank" rel="noopener">read more</a>), which means Cloudflare will keep on revalidating the files; checking things like whether they are still serving the exact same files or whether the files themselves still exist in our server.</p><p>Though even then, the process will not be instantaneous and may even take up to a full 24 hours until Cloudflare notice the files have been deleted from our server.</p><p>So yeah, please bear with this for now. Meanwhile I will try to contact Cloudflare for more information.</p>]]></content>
+      
       
       
     </entry>
+    
+    
     
     <entry>
       <title>Extra domain for the safe</title>
       <link href="/2018/09/29/Extra-domain/"/>
       <url>/2018/09/29/Extra-domain/</url>
-      <content type="html"><![CDATA[<p>Hi guys,</p><p>I recently added an extra domain that would redirect to <code>i.fiery.me</code>, namely <code>lolis.will-always-want.me</code>. So you can instead use that when posting your meme in Discord and stuff.</p><p>Actually just using <code>will-always-want.me</code> without the <code>lolis</code> subdomain would work too, but only because I didn’t bother.</p><p>Anyways, the current active subdomain is only <code>lolis</code>, but I can add more subdomains later in the future. I don’t know, maybe like <code>your-mom.will-always-want.me</code> or something? Haha.</p><p>Do remember that it’s only a simple 301 redirect. Meaning, when someone opens the URL in their browser, they’ll end up at <code>i.fiery.me</code> instead. It works alright in Discord since their thumbnailer follows redirect.</p><p>Anyways, that’s all. See ya.</p>]]></content>
+      
+        <content type="html"><![CDATA[<p>Hi guys,</p><p>I recently added an extra domain that would redirect to <code>i.fiery.me</code>, namely <code>lolis.will-always-want.me</code>. So you can instead use that when posting your meme in Discord and stuff.</p><p>Actually just using <code>will-always-want.me</code> without the <code>lolis</code> subdomain would work too, but only because I didn’t bother.</p><p>Anyways, the current active subdomain is only <code>lolis</code>, but I can add more subdomains later in the future. I don’t know, maybe like <code>your-mom.will-always-want.me</code> or something? Haha.</p><p>Do remember that it’s only a simple 301 redirect. Meaning, when someone opens the URL in their browser, they’ll end up at <code>i.fiery.me</code> instead. It works alright in Discord since their thumbnailer follows redirect.</p><p>Anyways, that’s all. See ya.</p>]]></content>
+      
       
       
     </entry>
+    
+    
     
     <entry>
       <title>Virus scanning</title>
       <link href="/2018/09/04/Virus-scanning/"/>
       <url>/2018/09/04/Virus-scanning/</url>
-      <content type="html"><![CDATA[<p>Hi guys,</p><p>Just a heads up. Recently, it has come to my attention that the safe was being blacklisted by browsers due to malicious uploaded files.</p><p>So I’ve scanned all existing files and removed some infected uploads. I’ve also implemented virus scanning to the upload process using ClamAV, so hopefully it won’t be getting as much malicious uploads in the future. I’ve also submitted an appeal to Google,  so hopefully the safe will no longer be blacklisted soon.</p>]]></content>
+      
+        <content type="html"><![CDATA[<p>Hi guys,</p><p>Just a heads up. Recently, it has come to my attention that the safe was being blacklisted by browsers due to malicious uploaded files.</p><p>So I’ve scanned all existing files and removed some infected uploads. I’ve also implemented virus scanning to the upload process using ClamAV, so hopefully it won’t be getting as much malicious uploads in the future. I’ve also submitted an appeal to Google, so hopefully the safe will no longer be blacklisted soon.</p>]]></content>
+      
       
       
     </entry>
+    
+    
     
     <entry>
       <title>Lowered safe&#39;s max file size</title>
       <link href="/2018/07/27/Lowered-safe-s-max-file-size/"/>
       <url>/2018/07/27/Lowered-safe-s-max-file-size/</url>
-      <content type="html"><![CDATA[<p>Bad news, guys.</p><p>I’m temporarily lowering the safe’s max file size to 30MB for an indefinite amount of time. I can’t make any guarantee as to when it’ll be raised back.</p><p>Any existing files over 30MB will not be deleted, unless due to any copyright claim reason or anything similar.</p><p>Sorry for the inconvenience, and thanks for being understanding.</p>]]></content>
+      
+        <content type="html"><![CDATA[<p>Bad news, guys.</p><p>I’m temporarily lowering the safe’s max file size to 30MB for an indefinite amount of time. I can’t make any guarantee as to when it’ll be raised back.</p><p>Any existing files over 30MB will not be deleted, unless due to any copyright claim reason or anything similar.</p><p>Sorry for the inconvenience, and thanks for being understanding.</p>]]></content>
+      
       
       
     </entry>
+    
+    
     
     <entry>
       <title>Clarification about the domains used for the safe</title>
       <link href="/2018/05/16/Clarification-about-the-domains-used-for-the-safe/"/>
       <url>/2018/05/16/Clarification-about-the-domains-used-for-the-safe/</url>
-      <content type="html"><![CDATA[<p>Hello there,</p><p>Some of you guys may have noticed that the safe has changed the domain used to serve files uploaded to it at least 3 times by now. Yeah, at first it was using <em>s.fiery.me</em>, then afterwards it used <em>the.fiery.me</em>, and now it uses <em>i.fiery.me</em>.</p><p>Yeah well.. back then I was like, “hey, this sounds good” and changed it.. twice, which leaves us with <em>i.fiery.me</em> now.</p><p>For old users, you’ll probably notice that all old links that were using <em>s.fiery.me</em> and <em>the.fiery.me</em> would still work, and that’s because I made both domain redirect to <em>s.fiery.me</em>. If you visit any of the old domains and see  your address bar, you’ll notice that you’ve been redirected.</p><p>So yeah, I have no plan on deleting both <em>s.fiery.me</em> and <em>the.fiery.me</em>, ever, so old and new users alike may feel free to use any of the aformentioned two domains or the current <em>i.fiery.me</em>.</p><p>That’s all. See ya folks!</p>]]></content>
+      
+        <content type="html"><![CDATA[<p>Hello there,</p><p>Some of you guys may have noticed that the safe has changed the domain used to serve files uploaded to it at least 3 times by now. Yeah, at first it was using <em>s.fiery.me</em>, then afterwards it used <em>the.fiery.me</em>, and now it uses <em>i.fiery.me</em>.</p><p>Yeah well.. back then I was like, “hey, this sounds good” and changed it.. twice, which leaves us with <em>i.fiery.me</em> now.</p><p>For old users, you’ll probably notice that all old links that were using <em>s.fiery.me</em> and <em>the.fiery.me</em> would still work, and that’s because I made both domain redirect to <em>s.fiery.me</em>. If you visit any of the old domains and see your address bar, you’ll notice that you’ve been redirected.</p><p>So yeah, I have no plan on deleting both <em>s.fiery.me</em> and <em>the.fiery.me</em>, ever, so old and new users alike may feel free to use any of the aformentioned two domains or the current <em>i.fiery.me</em>.</p><p>That’s all. See ya folks!</p>]]></content>
+      
       
       
     </entry>
+    
+    
     
     <entry>
       <title>This blog is now hosted at GitHub Pages</title>
       <link href="/2018/05/07/This-blog-is-now-hosted-at-GitHub-Pages/"/>
       <url>/2018/05/07/This-blog-is-now-hosted-at-GitHub-Pages/</url>
-      <content type="html"><![CDATA[<p>Hi,</p><p>So yeah, as the title says, this blog (<a href="https://blog.fiery.me">blog.fiery.me</a>) is now hosted at GitHub Pages. So whenever anything happens to the actual physical server where I host both <a href="https://safe.fiery.me" target="_blank" rel="noopener">safe.fiery.me</a> and  <a href="https://paste.fiery.me" target="_blank" rel="noopener">paste.fiery.me</a>, this blog will stay online. That way I can then post following news about whatever happens to the server here.</p><p>Well, that’s all. See ya!</p>]]></content>
+      
+        <content type="html"><![CDATA[<p>Hi,</p><p>So yeah, as the title says, this blog (<a href="https://blog.fiery.me">blog.fiery.me</a>) is now hosted at GitHub Pages. So whenever anything happens to the actual physical server where I host both <a href="https://safe.fiery.me" target="_blank" rel="noopener">safe.fiery.me</a> and <a href="https://paste.fiery.me" target="_blank" rel="noopener">paste.fiery.me</a>, this blog will stay online. That way I can then post following news about whatever happens to the server here.</p><p>Well, that’s all. See ya!</p>]]></content>
+      
       
       
     </entry>
+    
+    
     
     <entry>
       <title>Added hastebin</title>
       <link href="/2018/05/07/Added-hastebin/"/>
       <url>/2018/05/07/Added-hastebin/</url>
-      <content type="html"><![CDATA[<p>Hello there,</p><p>Just a small announcement, I’ve added a basic installation of hastebin at <a href="https://paste.fiery.me/" target="_blank" rel="noopener">https://paste.fiery.me/</a>. It should work as is with anything that supports hastebin by simply changing the domain.</p><p>I’ve been planning to add my own installation of paste/hastebin for a while but I only got around doing it today.</p><p>Anyways, it’s very basic so I’m not gonna comment further. If you want to use it, then feel free.</p><p>Oh yeah, I’d like to note that it does not have paste expiration yet. I’ll get to that someday in the future.</p><p>That’s all. See ya folks!</p><p><strong>EDIT:</strong> On a side note, if you think hastebin lack some features that you’d rather have in a pastebin-like sites, feel free to offer an alternative in the comment section. Preferably open-source ones of course. I didn’t really put much  thought when I chose hastebin after all.</p>]]></content>
+      
+        <content type="html"><![CDATA[<p>Hello there,</p><p>Just a small announcement, I’ve added a basic installation of hastebin at <a href="https://paste.fiery.me/" target="_blank" rel="noopener">https://paste.fiery.me/</a>. It should work as is with anything that supports hastebin by simply changing the domain.</p><p>I’ve been planning to add my own installation of paste/hastebin for a while but I only got around doing it today.</p><p>Anyways, it’s very basic so I’m not gonna comment further. If you want to use it, then feel free.</p><p>Oh yeah, I’d like to note that it does not have paste expiration yet. I’ll get to that someday in the future.</p><p>That’s all. See ya folks!</p><p><strong>EDIT:</strong> On a side note, if you think hastebin lack some features that you’d rather have in a pastebin-like sites, feel free to offer an alternative in the comment section. Preferably open-source ones of course. I didn’t really put much thought when I chose hastebin after all.</p>]]></content>
+      
       
       
     </entry>
+    
+    
     
     <entry>
       <title>Bash uploader</title>
       <link href="/2018/04/14/Bash-uploader/"/>
       <url>/2018/04/14/Bash-uploader/</url>
-      <content type="html"><![CDATA[<p>Hello,</p><p>I recently forked an open source project named <a href="https://github.com/jschx/uguush" target="_blank" rel="noopener">uguush</a>. It’s a command-line uploader for various file hosts, mainly pomf clones. If you are on *nix, it can be a simple replacement to ShareX, which is Windows-only.  You can check out my fork <a href="https://github.com/BobbyWibowo/uguush" target="_blank" rel="noopener">here</a>.</p><p>My fork will upload to <a href="https://safe.fiery.me/" target="_blank" rel="noopener">safe.fiery.me</a> by default, but you can still use the other hosts available in it.</p><p><img src="https://the.fiery.me/yRYR.png" alt="uguush"></p><p>The main differences between my fork and master is the ability to use token and albums.</p><p>For example, running <code>uguush -w -t MY_TOKEN_HERE</code> will screenshot your active window and use <code>MY_TOKEN_HERE</code> as the token. If the token matches your account’s, you will be able to see your uploaded screenshot from the safe’s dashboard.</p><p>Then if you run <code>uguush -f -t MY_TOKEN_HERE -a 1</code>, a fullscreen screenshot will be taken and uploaded to your account, and as long as you have an album with ID 1, the screenshot will be added to that album. I have updated albums list in safe.fiery.me  to show the albums’ ID a few days ago to help you in getting their IDs.</p><p>Other than capturing active window and fullscreen, it can also capture selection with <code>-s</code> option.</p><p>By default, it depends on <a href="https://github.com/naelstrof/maim" target="_blank" rel="noopener">maim</a> and <a href="https://github.com/naelstrof/slop" target="_blank" rel="noopener">slop</a>, but if you have <a href="https://www.kde.org/applications/graphics/spectacle/" target="_blank" rel="noopener">KDE Spectacle</a>, then you can use  <code>-k</code> option to replace both maim and slop with it.</p><p>Other than that, I also added <code>-i</code> option which you can use to apply shadow effect into active window capture when using maim/slop, just like spectacle. But unlike spectacle, even when the active window is maximized, it will still apply the  shadow effect. Truthfully though, I ended up not using that option ever since I got spectacle. It was merely an experiment in the first place.</p><p>Anyways, if you want to use it, you can add custom shortcuts if you want. At least on my end I’ve replaced all spectacle shortcuts with this.</p><p>On a side note, technically my fork is compatible with all lolisafe-based host. You’ll just have to manually edit the host from safe.fiery.me to other lolisafe-based host. Afterwards both token and albums feature should work just fine.</p><p>Okay, that’s all from me for today folks. See you all next time~</p>]]></content>
+      
+        <content type="html"><![CDATA[<p>Hello,</p><p>I recently forked an open source project named <a href="https://github.com/jschx/uguush" target="_blank" rel="noopener">uguush</a>. It’s a command-line uploader for various file hosts, mainly pomf clones. If you are on *nix, it can be a simple replacement to ShareX, which is Windows-only. You can check out my fork <a href="https://github.com/BobbyWibowo/uguush" target="_blank" rel="noopener">here</a>.</p><p>My fork will upload to <a href="https://safe.fiery.me/" target="_blank" rel="noopener">safe.fiery.me</a> by default, but you can still use the other hosts available in it.</p><p><img src="https://the.fiery.me/yRYR.png" alt="uguush"></p><p>The main differences between my fork and master is the ability to use token and albums.</p><p>For example, running <code>uguush -w -t MY_TOKEN_HERE</code> will screenshot your active window and use <code>MY_TOKEN_HERE</code> as the token. If the token matches your account’s, you will be able to see your uploaded screenshot from the safe’s dashboard.</p><p>Then if you run <code>uguush -f -t MY_TOKEN_HERE -a 1</code>, a fullscreen screenshot will be taken and uploaded to your account, and as long as you have an album with ID 1, the screenshot will be added to that album. I have updated albums list in safe.fiery.me to show the albums’ ID a few days ago to help you in getting their IDs.</p><p>Other than capturing active window and fullscreen, it can also capture selection with <code>-s</code> option.</p><p>By default, it depends on <a href="https://github.com/naelstrof/maim" target="_blank" rel="noopener">maim</a> and <a href="https://github.com/naelstrof/slop" target="_blank" rel="noopener">slop</a>, but if you have <a href="https://www.kde.org/applications/graphics/spectacle/" target="_blank" rel="noopener">KDE Spectacle</a>, then you can use <code>-k</code> option to replace both maim and slop with it.</p><p>Other than that, I also added <code>-i</code> option which you can use to apply shadow effect into active window capture when using maim/slop, just like spectacle. But unlike spectacle, even when the active window is maximized, it will still apply the shadow effect. Truthfully though, I ended up not using that option ever since I got spectacle. It was merely an experiment in the first place.</p><p>Anyways, if you want to use it, you can add custom shortcuts if you want. At least on my end I’ve replaced all spectacle shortcuts with this.</p><p>On a side note, technically my fork is compatible with all lolisafe-based host. You’ll just have to manually edit the host from safe.fiery.me to other lolisafe-based host. Afterwards both token and albums feature should work just fine.</p><p>Okay, that’s all from me for today folks. See you all next time~</p>]]></content>
+      
       
       
     </entry>
+    
+    
     
     <entry>
       <title>No-JS Uploader</title>
       <link href="/2018/04/13/No-JS-Uploader/"/>
       <url>/2018/04/13/No-JS-Uploader/</url>
-      <content type="html"><![CDATA[<p>Hello guys, we meet again!</p><p>I’m dedicating this blog post to introduce the all new No-JS uploader page!</p><p>You can check it out from <a href="https://safe.fiery.me/nojs" target="_blank" rel="noopener">here</a>.</p><p>That uploader does not use any JavaScript in its front-end, so you can use it just fine with NoScript-like extension.</p><p>Unfortunately though, you will not be able to associate your uploads to your account, if you have any.</p><p>Back then I was thinking that I should probably add an input form in which you could enter your token if you wanted to. But then I thought that, if you would prefer to use the No-JS uploader, then it was likely that you would not bother making an account  anyways. After all, the Dashboard needs JavaScript. So yeah, in the end I decided not to add support for tokens to the No-JS uploader page.</p><p>Other than that, since we are behind CloudFlare, the maximum size that you can upload with the No-JS uploader page is 100 MB. For now the page says 300 MB, but that’s only when you are chunking your uploads to 100 MB or lower (just like the homepage uploader  which chunks your upload to 10 MB). I’ll try to make that page shows a different maximum file size in the future.</p><p>So yeah, that is all. Love you guys, and I hope you will find it useful~</p>]]></content>
+      
+        <content type="html"><![CDATA[<p>Hello guys, we meet again!</p><p>I’m dedicating this blog post to introduce the all new No-JS uploader page!</p><p>You can check it out from <a href="https://safe.fiery.me/nojs" target="_blank" rel="noopener">here</a>.</p><p>That uploader does not use any JavaScript in its front-end, so you can use it just fine with NoScript-like extension.</p><p>Unfortunately though, you will not be able to associate your uploads to your account, if you have any.</p><p>Back then I was thinking that I should probably add an input form in which you could enter your token if you wanted to. But then I thought that, if you would prefer to use the No-JS uploader, then it was likely that you would not bother making an account anyways. After all, the Dashboard needs JavaScript. So yeah, in the end I decided not to add support for tokens to the No-JS uploader page.</p><p>Other than that, since we are behind CloudFlare, the maximum size that you can upload with the No-JS uploader page is 100 MB. For now the page says 300 MB, but that’s only when you are chunking your uploads to 100 MB or lower (just like the homepage uploader which chunks your upload to 10 MB). I’ll try to make that page shows a different maximum file size in the future.</p><p>So yeah, that is all. Love you guys, and I hope you will find it useful~</p>]]></content>
+      
       
       
     </entry>
+    
+    
     
     <entry>
       <title>Migrated to Hexo</title>
       <link href="/2018/04/02/Migrated-to-Hexo/"/>
       <url>/2018/04/02/Migrated-to-Hexo/</url>
-      <content type="html"><![CDATA[<p>Hi~</p><p>Just a heads up, I’ve migrated from Wordpress to Hexo.</p><p>I figured using Wordpress for a simple personal blog was rather overkill..</p><p>Anyways, that’s all. See ya next time~</p>]]></content>
+      
+        <content type="html"><![CDATA[<p>Hi~</p><p>Just a heads up, I’ve migrated from Wordpress to Hexo.</p><p>I figured using Wordpress for a simple personal blog was rather overkill..</p><p>Anyways, that’s all. See ya next time~</p>]]></content>
+      
       
       
     </entry>
+    
+    
     
     <entry>
       <title>CHUNKED UPLOADS!!</title>
       <link href="/2018/03/29/Chunked-Uploads/"/>
       <url>/2018/03/29/Chunked-Uploads/</url>
-      <content type="html"><![CDATA[<p>Yayyyy~!</p><p>Good news! The safe now supports chunked uploads!</p><p>Chunked uploads? Nani the heck is that?</p><p>Well, basically, your uploads will be split into a bunch of smaller files!<br>.. but why?<br>Well, there are a couple of good reasons! But there’s one that’s very important among them all, in my opinion at least, and that is, we can finally “bypass” Cloudflare’s  100MB upload limit!</p><p>If your file is larger than 100MB, then we can just split them into multiple smaller files and upload all those pieces instead! Afterwards the server will simply have to rebuild the files, and tadaa~, a file larger than 100MB successfully uploaded through  Cloudflare~!</p><p>At the moment, the safe will split files into multiple 10MB pieces.<br>Which also means chunked uploads will only be enabled for files larger than 10MB.</p><p>So yeah, anyways, with that I’ve also raised the safe’s max file size to 300MB~!</p><p>That’s all from me for today folks~ See ya~!</p>]]></content>
+      
+        <content type="html"><![CDATA[<p>Yayyyy~!</p><p>Good news! The safe now supports chunked uploads!</p><p>Chunked uploads? Nani the heck is that?</p><p>Well, basically, your uploads will be split into a bunch of smaller files!<br>.. but why?<br>Well, there are a couple of good reasons! But there’s one that’s very important among them all, in my opinion at least, and that is, we can finally “bypass” Cloudflare’s 100MB upload limit!</p><p>If your file is larger than 100MB, then we can just split them into multiple smaller files and upload all those pieces instead! Afterwards the server will simply have to rebuild the files, and tadaa~, a file larger than 100MB successfully uploaded through Cloudflare~!</p><p>At the moment, the safe will split files into multiple 10MB pieces.<br>Which also means chunked uploads will only be enabled for files larger than 10MB.</p><p>So yeah, anyways, with that I’ve also raised the safe’s max file size to 300MB~!</p><p>That’s all from me for today folks~ See ya~!</p>]]></content>
+      
       
       
     </entry>
+    
+    
     
     <entry>
       <title>Configurable file name length</title>
       <link href="/2018/03/24/Configurable-file-name-length/"/>
       <url>/2018/03/24/Configurable-file-name-length/</url>
-      <content type="html"><![CDATA[<p>Hi hi, just another blog post about safe.fiery.me here.</p><p>If you already have an account, you can now set your preferred file name length!</p><p>When the safe first started, random file names used to be 32 chars long, but I changed it to 4 chars not too long ago.</p><p>Then I figured some people would prefer long names instead, so I implemented this option.</p><p>At the moment, users can choose from 4 to 32 chars, but 4 chars is still the default.</p><p>If you’re using the Chrome/Firefox extension or ShareX, make sure you’re properly using your token, as the file name length preference is tied to your account.</p><p>Someday in the future, I’ll probably add support for non-registered users, but eh, someday~</p><p>That’s all folks, cya!</p>]]></content>
+      
+        <content type="html"><![CDATA[<p>Hi hi, just another blog post about safe.fiery.me here.</p><p>If you already have an account, you can now set your preferred file name length!</p><p>When the safe first started, random file names used to be 32 chars long, but I changed it to 4 chars not too long ago.</p><p>Then I figured some people would prefer long names instead, so I implemented this option.</p><p>At the moment, users can choose from 4 to 32 chars, but 4 chars is still the default.</p><p>If you’re using the Chrome/Firefox extension or ShareX, make sure you’re properly using your token, as the file name length preference is tied to your account.</p><p>Someday in the future, I’ll probably add support for non-registered users, but eh, someday~</p><p>That’s all folks, cya!</p>]]></content>
+      
       
       
     </entry>
+    
+    
     
     <entry>
       <title>Some changes to the safe</title>
       <link href="/2018/03/14/Some-changes-to-the-safe/"/>
       <url>/2018/03/14/Some-changes-to-the-safe/</url>
-      <content type="html"><![CDATA[<p>If you don’t know which safe I’m talking about, it’s the one at <a href="https://safe.fiery.me/" target="_blank" rel="noopener">safe.fiery.me</a>.</p><p>Less than 24 hours ago it has officially started using 4 letters for file name as opposed to the old 32 letters. That’s a lot of reduction!<br>Example (NSFW-ish): <a href="https://i.fiery.me/ohVJ.jpg" target="_blank" rel="noopener">https://s.fiery.me/ohVJ.jpg</a></p><p>Other than some other custom fixes, it’s also now up-to-date with <a href="https://github.com/WeebDev/lolisafe" target="_blank" rel="noopener">WeebDev/lolisafe</a>. And yeah, you can still check whatever changes I’ve added in the fork <a href="https://github.com/BobbyWibowo/lolisafe" target="_blank" rel="noopener">BobbyWibowo/lolisafe</a>.</p><p>That’s all~</p>]]></content>
+      
+        <content type="html"><![CDATA[<p>If you don’t know which safe I’m talking about, it’s the one at <a href="https://safe.fiery.me/" target="_blank" rel="noopener">safe.fiery.me</a>.</p><p>Less than 24 hours ago it has officially started using 4 letters for file name as opposed to the old 32 letters. That’s a lot of reduction!<br>Example (NSFW-ish): <a href="https://i.fiery.me/ohVJ.jpg" target="_blank" rel="noopener">https://s.fiery.me/ohVJ.jpg</a></p><p>Other than some other custom fixes, it’s also now up-to-date with <a href="https://github.com/WeebDev/lolisafe" target="_blank" rel="noopener">WeebDev/lolisafe</a>. And yeah, you can still check whatever changes I’ve added in the fork <a href="https://github.com/BobbyWibowo/lolisafe" target="_blank" rel="noopener">BobbyWibowo/lolisafe</a>.</p><p>That’s all~</p>]]></content>
+      
       
       
     </entry>
     
+    
   
   
+    
     
     <entry>
       <title>Bobby&#39;s blog</title>
       <link href="/search/index.html"/>
       <url>/search/index.html</url>
-      <content type="html"><![CDATA[]]></content>
+      
+        <content type="html"><![CDATA[]]></content>
+      
     </entry>
+    
     
   
 </search>

@@ -2,7 +2,6 @@
  * Font Awesome Free 5.0.2 by @fontawesome - http://fontawesome.com
  * License - http://fontawesome.com/license (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
-
 .fa,
 .fab,
 .fal,
@@ -139,6 +138,7 @@
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg)
   }
+
   to {
     -webkit-transform: rotate(1turn);
     transform: rotate(1turn)
@@ -150,6 +150,7 @@
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg)
   }
+
   to {
     -webkit-transform: rotate(1turn);
     transform: rotate(1turn)

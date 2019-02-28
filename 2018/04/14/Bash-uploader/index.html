@@ -2,10 +2,11 @@
 <html lang=en>
 
 <head>
+  <meta name="generator" content="Hexo 3.8.0">
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="HandheldFriendly" content="True">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="Hello, I recently forked an open source project named uguush. It’s a command-line uploader for various file hosts, mainly pomf clones. If you are on *nix, it can be a simple replacement to ShareX, whi">
   <meta property="og:type" content="article">
   <meta property="og:title" content="Bash uploader">
@@ -35,7 +36,7 @@
   <!-- Styles -->
   <link rel="stylesheet" href="/css/style.css?v=mLY7sOJPzV">
   <!-- RSS -->
-  <link rel="alternate" href="/atom.xml" title="Bobby&#39;s blog" type="application/atom+xml" />
+  <link rel="alternate" href="/atom.xml" title="Bobby&#39;s blog" type="application/atom+xml">
 </head>
 
 <body class="max-width mx-auto px3">
@@ -44,66 +45,56 @@
     <a id="menu-icon-tablet" href="#"><i class="fas fa-bars fa-lg"></i></a>
     <a id="top-icon-tablet" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fas fa-chevron-up fa-lg"></i></a>
     <span id="menu">
-    <span id="nav">
-      <ul>
-        
+      <span id="nav">
+        <ul>
           <li><a href="https://fiery.me">Home</a></li>
-        
           <li><a href="/">Blog</a></li>
-        
           <li><a href="/archives/">Archives</a></li>
-        
           <li><a href="/search/">Search</a></li>
-        
           <li><a href="https://github.com/BobbyWibowo">Projects</a></li>
-        
-      </ul>
-    </span>
-    <br/>
-    <span id="actions">
-      <ul>
-        
-        <li><a class="icon" href="/2018/05/07/Added-hastebin/"><i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i></a></li>
-        
-        
-        <li><a class="icon" href="/2018/04/13/No-JS-Uploader/"><i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
-        
-        <li><a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
-        <li><a class="icon" href="#"><i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
-      </ul>
-      <span id="i-prev" class="info" style="display:none;">Previous post</span>
-    <span id="i-next" class="info" style="display:none;">Next post</span>
-    <span id="i-top" class="info" style="display:none;">Back to top</span>
-    <span id="i-share" class="info" style="display:none;">Share post</span>
-    </span>
-    <br/>
-    <div id="share" style="display: none">
-      <ul>
-        <li><a class="icon" href="http://www.facebook.com/sharer.php?u=https://blog.fiery.me/2018/04/14/Bash-uploader/"><i class="fab fa-facebook " aria-hidden="true"></i></a></li>
-        <li><a class="icon" href="https://twitter.com/share?url=https://blog.fiery.me/2018/04/14/Bash-uploader/&text=Bash uploader"><i class="fab fa-twitter " aria-hidden="true"></i></a></li>
-        <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=https://blog.fiery.me/2018/04/14/Bash-uploader/&title=Bash uploader"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
-        <li><a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https://blog.fiery.me/2018/04/14/Bash-uploader/&is_video=false&description=Bash uploader"><i class="fab fa-pinterest " aria-hidden="true"></i></a></li>
-        <li><a class="icon" href="mailto:?subject=Bash uploader&body=Check out this article: https://blog.fiery.me/2018/04/14/Bash-uploader/"><i class="fas fa-envelope " aria-hidden="true"></i></a></li>
-        <li><a class="icon" href="https://getpocket.com/save?url=https://blog.fiery.me/2018/04/14/Bash-uploader/&title=Bash uploader"><i class="fab fa-get-pocket " aria-hidden="true"></i></a></li>
-        <li><a class="icon" href="http://reddit.com/submit?url=https://blog.fiery.me/2018/04/14/Bash-uploader/&title=Bash uploader"><i class="fab fa-reddit " aria-hidden="true"></i></a></li>
-        <li><a class="icon" href="http://www.stumbleupon.com/submit?url=https://blog.fiery.me/2018/04/14/Bash-uploader/&title=Bash uploader"><i class="fab fa-stumbleupon " aria-hidden="true"></i></a></li>
-        <li><a class="icon" href="http://digg.com/submit?url=https://blog.fiery.me/2018/04/14/Bash-uploader/&title=Bash uploader"><i class="fab fa-digg " aria-hidden="true"></i></a></li>
-        <li><a class="icon" href="http://www.tumblr.com/share/link?url=https://blog.fiery.me/2018/04/14/Bash-uploader/&name=Bash uploader&description="><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
-      </ul>
-    </div>
-    <div id="toc">
-    </div>
+        </ul>
+      </span>
+      <br>
+      <span id="actions">
+        <ul>
+          <li><a class="icon" href="/2018/05/07/Added-hastebin/"><i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i></a></li>
+          <li><a class="icon" href="/2018/04/13/No-JS-Uploader/"><i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
+          <li><a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
+          <li><a class="icon" href="#"><i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
+        </ul>
+        <span id="i-prev" class="info" style="display:none;">Previous post</span>
+        <span id="i-next" class="info" style="display:none;">Next post</span>
+        <span id="i-top" class="info" style="display:none;">Back to top</span>
+        <span id="i-share" class="info" style="display:none;">Share post</span>
+      </span>
+      <br>
+      <div id="share" style="display: none">
+        <ul>
+          <li><a class="icon" href="http://www.facebook.com/sharer.php?u=https://blog.fiery.me/2018/04/14/Bash-uploader/"><i class="fab fa-facebook " aria-hidden="true"></i></a></li>
+          <li><a class="icon" href="https://twitter.com/share?url=https://blog.fiery.me/2018/04/14/Bash-uploader/&text=Bash uploader"><i class="fab fa-twitter " aria-hidden="true"></i></a></li>
+          <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=https://blog.fiery.me/2018/04/14/Bash-uploader/&title=Bash uploader"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
+          <li><a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https://blog.fiery.me/2018/04/14/Bash-uploader/&is_video=false&description=Bash uploader"><i class="fab fa-pinterest " aria-hidden="true"></i></a></li>
+          <li><a class="icon" href="mailto:?subject=Bash uploader&body=Check out this article: https://blog.fiery.me/2018/04/14/Bash-uploader/"><i class="fas fa-envelope " aria-hidden="true"></i></a></li>
+          <li><a class="icon" href="https://getpocket.com/save?url=https://blog.fiery.me/2018/04/14/Bash-uploader/&title=Bash uploader"><i class="fab fa-get-pocket " aria-hidden="true"></i></a></li>
+          <li><a class="icon" href="http://reddit.com/submit?url=https://blog.fiery.me/2018/04/14/Bash-uploader/&title=Bash uploader"><i class="fab fa-reddit " aria-hidden="true"></i></a></li>
+          <li><a class="icon" href="http://www.stumbleupon.com/submit?url=https://blog.fiery.me/2018/04/14/Bash-uploader/&title=Bash uploader"><i class="fab fa-stumbleupon " aria-hidden="true"></i></a></li>
+          <li><a class="icon" href="http://digg.com/submit?url=https://blog.fiery.me/2018/04/14/Bash-uploader/&title=Bash uploader"><i class="fab fa-digg " aria-hidden="true"></i></a></li>
+          <li><a class="icon" href="http://www.tumblr.com/share/link?url=https://blog.fiery.me/2018/04/14/Bash-uploader/&name=Bash uploader&description="><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
+        </ul>
+      </div>
+      <div id="toc">
+      </div>
     </span>
   </div>
   <div class="content index my4">
-    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+    <article class="post" itemscope="" itemtype="http://schema.org/BlogPosting">
       <header>
         <h1 class="posttitle" itemprop="name headline">
           Bash uploader
         </h1>
         <div class="meta">
-          <span class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
-        <span itemprop="name">Bobby Wibowo</span>
+          <span class="author" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+            <span itemprop="name">Bobby Wibowo</span>
           </span>
           <div class="postdate">
             <time datetime="2018-04-13T17:33:00.000Z" itemprop="datePublished">14/04/2018</time>
@@ -112,22 +103,15 @@
       </header>
       <div class="content" itemprop="articleBody">
         <p>Hello,</p>
-        <p>I recently forked an open source project named <a href="https://github.com/jschx/uguush" target="_blank" rel="noopener">uguush</a>. It’s a command-line uploader for various file hosts, mainly pomf clones. If you are on *nix, it can be a simple
-          replacement to ShareX, which is Windows-only. You can check out my fork <a href="https://github.com/BobbyWibowo/uguush" target="_blank" rel="noopener">here</a>.</p>
+        <p>I recently forked an open source project named <a href="https://github.com/jschx/uguush" target="_blank" rel="noopener">uguush</a>. It’s a command-line uploader for various file hosts, mainly pomf clones. If you are on *nix, it can be a simple replacement to ShareX, which is Windows-only. You can check out my fork <a href="https://github.com/BobbyWibowo/uguush" target="_blank" rel="noopener">here</a>.</p>
         <p>My fork will upload to <a href="https://safe.fiery.me/" target="_blank" rel="noopener">safe.fiery.me</a> by default, but you can still use the other hosts available in it.</p>
         <p><img src="https://the.fiery.me/yRYR.png" alt="uguush"></p>
         <p>The main differences between my fork and master is the ability to use token and albums.</p>
-        <p>For example, running <code>uguush -w -t MY_TOKEN_HERE</code> will screenshot your active window and use <code>MY_TOKEN_HERE</code> as the token. If the token matches your account’s, you will be able to see your uploaded screenshot from the safe’s
-          dashboard.
-        </p>
-        <p>Then if you run <code>uguush -f -t MY_TOKEN_HERE -a 1</code>, a fullscreen screenshot will be taken and uploaded to your account, and as long as you have an album with ID 1, the screenshot will be added to that album. I have updated albums list
-          in safe.fiery.me to show the albums’ ID a few days ago to help you in getting their IDs.</p>
+        <p>For example, running <code>uguush -w -t MY_TOKEN_HERE</code> will screenshot your active window and use <code>MY_TOKEN_HERE</code> as the token. If the token matches your account’s, you will be able to see your uploaded screenshot from the safe’s dashboard.</p>
+        <p>Then if you run <code>uguush -f -t MY_TOKEN_HERE -a 1</code>, a fullscreen screenshot will be taken and uploaded to your account, and as long as you have an album with ID 1, the screenshot will be added to that album. I have updated albums list in safe.fiery.me to show the albums’ ID a few days ago to help you in getting their IDs.</p>
         <p>Other than capturing active window and fullscreen, it can also capture selection with <code>-s</code> option.</p>
-        <p>By default, it depends on <a href="https://github.com/naelstrof/maim" target="_blank" rel="noopener">maim</a> and <a href="https://github.com/naelstrof/slop" target="_blank" rel="noopener">slop</a>, but if you have <a href="https://www.kde.org/applications/graphics/spectacle/"
-            target="_blank" rel="noopener">KDE Spectacle</a>, then you can use
-          <code>-k</code> option to replace both maim and slop with it.</p>
-        <p>Other than that, I also added <code>-i</code> option which you can use to apply shadow effect into active window capture when using maim/slop, just like spectacle. But unlike spectacle, even when the active window is maximized, it will still apply
-          the shadow effect. Truthfully though, I ended up not using that option ever since I got spectacle. It was merely an experiment in the first place.</p>
+        <p>By default, it depends on <a href="https://github.com/naelstrof/maim" target="_blank" rel="noopener">maim</a> and <a href="https://github.com/naelstrof/slop" target="_blank" rel="noopener">slop</a>, but if you have <a href="https://www.kde.org/applications/graphics/spectacle/" target="_blank" rel="noopener">KDE Spectacle</a>, then you can use <code>-k</code> option to replace both maim and slop with it.</p>
+        <p>Other than that, I also added <code>-i</code> option which you can use to apply shadow effect into active window capture when using maim/slop, just like spectacle. But unlike spectacle, even when the active window is maximized, it will still apply the shadow effect. Truthfully though, I ended up not using that option ever since I got spectacle. It was merely an experiment in the first place.</p>
         <p>Anyways, if you want to use it, you can add custom shortcuts if you want. At least on my end I’ve replaced all spectacle shortcuts with this.</p>
         <p>On a side note, technically my fork is compatible with all lolisafe-based host. You’ll just have to manually edit the host from safe.fiery.me to other lolisafe-based host. Afterwards both token and albums feature should work just fine.</p>
         <p>Okay, that’s all from me for today folks. See you all next time~</p>
@@ -218,6 +202,7 @@
     }());
 
   </script>
+  <!-- Schnack Comments -->
 </body>
 
 </html>
