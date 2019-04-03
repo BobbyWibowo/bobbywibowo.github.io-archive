@@ -8,7 +8,15 @@
 
     <url>
         <loc>https://blog.fiery.me/2019/02/01/Uptime-monitor/</loc>
-        <lastmod>2019-01-31T17:25:29.292Z</lastmod>
+        <lastmod>2019-04-03T15:48:04.892Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://blog.fiery.me/2019/04/03/URGENT-Downtime-Notice/</loc>
+        <lastmod>2019-04-03T15:47:25.487Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 

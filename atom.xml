@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.fiery.me/"/>
-  <updated>2019-01-31T17:25:29.292Z</updated>
+  <updated>2019-04-03T15:47:25.487Z</updated>
   <id>https://blog.fiery.me/</id>
   
   <author>
@@ -17,11 +17,34 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>URGENT: Downtime Notice!</title>
+    <link href="https://blog.fiery.me/2019/04/03/URGENT-Downtime-Notice/"/>
+    <id>https://blog.fiery.me/2019/04/03/URGENT-Downtime-Notice/</id>
+    <published>2019-04-03T15:47:24.000Z</published>
+    <updated>2019-04-03T15:47:25.487Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Hello there,&lt;/p&gt;
+&lt;p&gt;Just a quick notice. Within the next few days I’ll be transferring the server to a new location in Paris, France. As
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>Uptime monitor (update)</title>
     <link href="https://blog.fiery.me/2019/02/01/Uptime-monitor/"/>
     <id>https://blog.fiery.me/2019/02/01/Uptime-monitor/</id>
     <published>2019-01-31T17:18:00.000Z</published>
-    <updated>2019-01-31T17:25:29.292Z</updated>
+    <updated>2019-04-03T15:48:04.892Z</updated>
     
     <summary type="html">
     
