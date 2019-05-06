@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.fiery.me/"/>
-  <updated>2019-04-03T15:47:25.487Z</updated>
+  <updated>2019-05-06T17:32:01.316Z</updated>
   <id>https://blog.fiery.me/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Increased max file size to 100MB</title>
+    <link href="https://blog.fiery.me/2019/05/06/Increased-max-file-size-to-100MB/"/>
+    <id>https://blog.fiery.me/2019/05/06/Increased-max-file-size-to-100MB/</id>
+    <published>2019-05-06T15:53:32.000Z</published>
+    <updated>2019-05-06T17:32:01.316Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Hey there,&lt;/p&gt;
+&lt;p&gt;As the title says, I’ve increased max file size of the safe to 100MB. The same applies for URL uploads as
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>URGENT: Downtime Notice!</title>
@@ -452,28 +475,6 @@
         
           &lt;p&gt;Hi hi, just another blog post about safe.fiery.me here.&lt;/p&gt;
 &lt;p&gt;If you already have an account, you can now set your preferred file name
-        
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Some changes to the safe</title>
-    <link href="https://blog.fiery.me/2018/03/14/Some-changes-to-the-safe/"/>
-    <id>https://blog.fiery.me/2018/03/14/Some-changes-to-the-safe/</id>
-    <published>2018-03-14T07:36:49.000Z</published>
-    <updated>2018-09-29T15:15:25.680Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;If you don’t know which safe I’m talking about, it’s the one at &lt;a href=&quot;https://safe.fiery.me/&quot; target=&quot;_blank&quot;
         
       
     
