@@ -7,6 +7,14 @@
     </url>
 
     <url>
+        <loc>https://blog.fiery.me/2019/06/14/Recent-downtime/</loc>
+        <lastmod>2019-06-14T13:12:09.689Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://blog.fiery.me/2019/05/06/Increased-max-file-size-to-100MB/</loc>
         <lastmod>2019-05-06T17:32:01.316Z</lastmod>
         <changefreq>weekly</changefreq>

@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.fiery.me/"/>
-  <updated>2019-05-06T17:32:01.316Z</updated>
+  <updated>2019-06-14T13:12:09.689Z</updated>
   <id>https://blog.fiery.me/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Recent downtime</title>
+    <link href="https://blog.fiery.me/2019/06/14/Recent-downtime/"/>
+    <id>https://blog.fiery.me/2019/06/14/Recent-downtime/</id>
+    <published>2019-06-14T13:08:20.000Z</published>
+    <updated>2019-06-14T13:12:09.689Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;img src=&quot;https://i.fiery.me/mD9R.png&quot; alt=&quot;Downtime&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Uh yeah, this was due to me rebooting the server due to a recent kernel
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>Increased max file size to 100MB</title>
@@ -452,29 +475,6 @@
 &lt;p&gt;Good news! The safe now supports chunked uploads!&lt;/p&gt;
 &lt;p&gt;Chunked uploads? Nani the heck is that?&lt;/p&gt;
 &lt;p&gt;Well, basically,
-        
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Configurable file name length</title>
-    <link href="https://blog.fiery.me/2018/03/24/Configurable-file-name-length/"/>
-    <id>https://blog.fiery.me/2018/03/24/Configurable-file-name-length/</id>
-    <published>2018-03-24T15:04:45.000Z</published>
-    <updated>2018-09-29T15:14:57.724Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;Hi hi, just another blog post about safe.fiery.me here.&lt;/p&gt;
-&lt;p&gt;If you already have an account, you can now set your preferred file name
         
       
     

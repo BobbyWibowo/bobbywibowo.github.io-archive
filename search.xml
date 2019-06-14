@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>Recent downtime</title>
+      <link href="/2019/06/14/Recent-downtime/"/>
+      <url>/2019/06/14/Recent-downtime/</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://i.fiery.me/mD9R.png" alt="Downtime"></p><p>Uh yeah, this was due to me rebooting the server due to a recent kernel update.</p><p>After the update, I had to change some configuration to ClamAV daemon’s systemd file because systemd’s default timeout was 90s, while the daemon needed more time than that (we aren’t exactly on that great of a server). It sorta took me a while to notice as well.</p><p>Sorry for the inconveniences!</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Increased max file size to 100MB</title>
       <link href="/2019/05/06/Increased-max-file-size-to-100MB/"/>
       <url>/2019/05/06/Increased-max-file-size-to-100MB/</url>

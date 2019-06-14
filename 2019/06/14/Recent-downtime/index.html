@@ -7,18 +7,20 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="HandheldFriendly" content="True">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Hey there, As the title says, I’ve increased max file size of the safe to 100MB. The same applies for URL uploads as well. Enjoy~">
+  <meta name="description" content="Uh yeah, this was due to me rebooting the server due to a recent kernel update. After the update, I had to change some configuration to ClamAV daemon’s systemd file because systemd’s default timeout">
   <meta property="og:type" content="article">
-  <meta property="og:title" content="Increased max file size to 100MB">
-  <meta property="og:url" content="https://blog.fiery.me/2019/05/06/Increased-max-file-size-to-100MB/index.html">
+  <meta property="og:title" content="Recent downtime">
+  <meta property="og:url" content="https://blog.fiery.me/2019/06/14/Recent-downtime/index.html">
   <meta property="og:site_name" content="Bobby&#39;s blog">
-  <meta property="og:description" content="Hey there, As the title says, I’ve increased max file size of the safe to 100MB. The same applies for URL uploads as well. Enjoy~">
+  <meta property="og:description" content="Uh yeah, this was due to me rebooting the server due to a recent kernel update. After the update, I had to change some configuration to ClamAV daemon’s systemd file because systemd’s default timeout">
   <meta property="og:locale" content="en">
-  <meta property="og:updated_time" content="2019-05-06T17:32:01.316Z">
+  <meta property="og:image" content="https://i.fiery.me/mD9R.png">
+  <meta property="og:updated_time" content="2019-06-14T13:12:09.689Z">
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Increased max file size to 100MB">
-  <meta name="twitter:description" content="Hey there, As the title says, I’ve increased max file size of the safe to 100MB. The same applies for URL uploads as well. Enjoy~">
-  <title>Increased max file size to 100MB</title>
+  <meta name="twitter:title" content="Recent downtime">
+  <meta name="twitter:description" content="Uh yeah, this was due to me rebooting the server due to a recent kernel update. After the update, I had to change some configuration to ClamAV daemon’s systemd file because systemd’s default timeout">
+  <meta name="twitter:image" content="https://i.fiery.me/mD9R.png">
+  <title>Recent downtime</title>
   <!-- Icons, configs, etcetera -->
   <link rel="icon" type="image/png" href="https://blog.fiery.me/icons/32pxr.png?v=mLY7sOJPzV" sizes="32x32">
   <link rel="icon" type="image/png" href="https://blog.fiery.me/icons/96pxr.png?v=mLY7sOJPzV" sizes="96x96">
@@ -55,8 +57,7 @@
       <br>
       <span id="actions">
         <ul>
-          <li><a class="icon" href="/2019/06/14/Recent-downtime/"><i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i></a></li>
-          <li><a class="icon" href="/2019/04/03/URGENT-Downtime-Notice/"><i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
+          <li><a class="icon" href="/2019/05/06/Increased-max-file-size-to-100MB/"><i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
           <li><a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
           <li><a class="icon" href="#"><i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
         </ul>
@@ -68,16 +69,16 @@
       <br>
       <div id="share" style="display: none">
         <ul>
-          <li><a class="icon" href="http://www.facebook.com/sharer.php?u=https://blog.fiery.me/2019/05/06/Increased-max-file-size-to-100MB/"><i class="fab fa-facebook " aria-hidden="true"></i></a></li>
-          <li><a class="icon" href="https://twitter.com/share?url=https://blog.fiery.me/2019/05/06/Increased-max-file-size-to-100MB/&text=Increased max file size to 100MB"><i class="fab fa-twitter " aria-hidden="true"></i></a></li>
-          <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=https://blog.fiery.me/2019/05/06/Increased-max-file-size-to-100MB/&title=Increased max file size to 100MB"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
-          <li><a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https://blog.fiery.me/2019/05/06/Increased-max-file-size-to-100MB/&is_video=false&description=Increased max file size to 100MB"><i class="fab fa-pinterest " aria-hidden="true"></i></a></li>
-          <li><a class="icon" href="mailto:?subject=Increased max file size to 100MB&body=Check out this article: https://blog.fiery.me/2019/05/06/Increased-max-file-size-to-100MB/"><i class="fas fa-envelope " aria-hidden="true"></i></a></li>
-          <li><a class="icon" href="https://getpocket.com/save?url=https://blog.fiery.me/2019/05/06/Increased-max-file-size-to-100MB/&title=Increased max file size to 100MB"><i class="fab fa-get-pocket " aria-hidden="true"></i></a></li>
-          <li><a class="icon" href="http://reddit.com/submit?url=https://blog.fiery.me/2019/05/06/Increased-max-file-size-to-100MB/&title=Increased max file size to 100MB"><i class="fab fa-reddit " aria-hidden="true"></i></a></li>
-          <li><a class="icon" href="http://www.stumbleupon.com/submit?url=https://blog.fiery.me/2019/05/06/Increased-max-file-size-to-100MB/&title=Increased max file size to 100MB"><i class="fab fa-stumbleupon " aria-hidden="true"></i></a></li>
-          <li><a class="icon" href="http://digg.com/submit?url=https://blog.fiery.me/2019/05/06/Increased-max-file-size-to-100MB/&title=Increased max file size to 100MB"><i class="fab fa-digg " aria-hidden="true"></i></a></li>
-          <li><a class="icon" href="http://www.tumblr.com/share/link?url=https://blog.fiery.me/2019/05/06/Increased-max-file-size-to-100MB/&name=Increased max file size to 100MB&description="><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
+          <li><a class="icon" href="http://www.facebook.com/sharer.php?u=https://blog.fiery.me/2019/06/14/Recent-downtime/"><i class="fab fa-facebook " aria-hidden="true"></i></a></li>
+          <li><a class="icon" href="https://twitter.com/share?url=https://blog.fiery.me/2019/06/14/Recent-downtime/&text=Recent downtime"><i class="fab fa-twitter " aria-hidden="true"></i></a></li>
+          <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=https://blog.fiery.me/2019/06/14/Recent-downtime/&title=Recent downtime"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
+          <li><a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https://blog.fiery.me/2019/06/14/Recent-downtime/&is_video=false&description=Recent downtime"><i class="fab fa-pinterest " aria-hidden="true"></i></a></li>
+          <li><a class="icon" href="mailto:?subject=Recent downtime&body=Check out this article: https://blog.fiery.me/2019/06/14/Recent-downtime/"><i class="fas fa-envelope " aria-hidden="true"></i></a></li>
+          <li><a class="icon" href="https://getpocket.com/save?url=https://blog.fiery.me/2019/06/14/Recent-downtime/&title=Recent downtime"><i class="fab fa-get-pocket " aria-hidden="true"></i></a></li>
+          <li><a class="icon" href="http://reddit.com/submit?url=https://blog.fiery.me/2019/06/14/Recent-downtime/&title=Recent downtime"><i class="fab fa-reddit " aria-hidden="true"></i></a></li>
+          <li><a class="icon" href="http://www.stumbleupon.com/submit?url=https://blog.fiery.me/2019/06/14/Recent-downtime/&title=Recent downtime"><i class="fab fa-stumbleupon " aria-hidden="true"></i></a></li>
+          <li><a class="icon" href="http://digg.com/submit?url=https://blog.fiery.me/2019/06/14/Recent-downtime/&title=Recent downtime"><i class="fab fa-digg " aria-hidden="true"></i></a></li>
+          <li><a class="icon" href="http://www.tumblr.com/share/link?url=https://blog.fiery.me/2019/06/14/Recent-downtime/&name=Recent downtime&description="><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
         </ul>
       </div>
       <div id="toc">
@@ -88,21 +89,22 @@
     <article class="post" itemscope="" itemtype="http://schema.org/BlogPosting">
       <header>
         <h1 class="posttitle" itemprop="name headline">
-          Increased max file size to 100MB
+          Recent downtime
         </h1>
         <div class="meta">
           <span class="author" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
             <span itemprop="name">Bobby Wibowo</span>
           </span>
           <div class="postdate">
-            <time datetime="2019-05-06T15:53:32.000Z" itemprop="datePublished">06/05/2019</time>
+            <time datetime="2019-06-14T13:08:20.000Z" itemprop="datePublished">14/06/2019</time>
           </div>
         </div>
       </header>
       <div class="content" itemprop="articleBody">
-        <p>Hey there,</p>
-        <p>As the title says, I’ve increased max file size of the safe to 100MB. The same applies for URL uploads as well.</p>
-        <p>Enjoy~</p>
+        <p><img src="https://i.fiery.me/mD9R.png" alt="Downtime"></p>
+        <p>Uh yeah, this was due to me rebooting the server due to a recent kernel update.</p>
+        <p>After the update, I had to change some configuration to ClamAV daemon’s systemd file because systemd’s default timeout was 90s, while the daemon needed more time than that (we aren’t exactly on that great of a server). It sorta took me a while to notice as well.</p>
+        <p>Sorry for the inconveniences!</p>
       </div>
     </article>
     <div class="blog-post-comments">
@@ -126,16 +128,16 @@
       </div>
       <div id="share-footer" style="display: none">
         <ul>
-          <li><a class="icon" href="http://www.facebook.com/sharer.php?u=https://blog.fiery.me/2019/05/06/Increased-max-file-size-to-100MB/"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
-          <li><a class="icon" href="https://twitter.com/share?url=https://blog.fiery.me/2019/05/06/Increased-max-file-size-to-100MB/&text=Increased max file size to 100MB"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
-          <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=https://blog.fiery.me/2019/05/06/Increased-max-file-size-to-100MB/&title=Increased max file size to 100MB"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
-          <li><a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https://blog.fiery.me/2019/05/06/Increased-max-file-size-to-100MB/&is_video=false&description=Increased max file size to 100MB"><i class="fab fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
-          <li><a class="icon" href="mailto:?subject=Increased max file size to 100MB&body=Check out this article: https://blog.fiery.me/2019/05/06/Increased-max-file-size-to-100MB/"><i class="fas fa-envelope fa-lg" aria-hidden="true"></i></a></li>
-          <li><a class="icon" href="https://getpocket.com/save?url=https://blog.fiery.me/2019/05/06/Increased-max-file-size-to-100MB/&title=Increased max file size to 100MB"><i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
-          <li><a class="icon" href="http://reddit.com/submit?url=https://blog.fiery.me/2019/05/06/Increased-max-file-size-to-100MB/&title=Increased max file size to 100MB"><i class="fab fa-reddit fa-lg" aria-hidden="true"></i></a></li>
-          <li><a class="icon" href="http://www.stumbleupon.com/submit?url=https://blog.fiery.me/2019/05/06/Increased-max-file-size-to-100MB/&title=Increased max file size to 100MB"><i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
-          <li><a class="icon" href="http://digg.com/submit?url=https://blog.fiery.me/2019/05/06/Increased-max-file-size-to-100MB/&title=Increased max file size to 100MB"><i class="fab fa-digg fa-lg" aria-hidden="true"></i></a></li>
-          <li><a class="icon" href="http://www.tumblr.com/share/link?url=https://blog.fiery.me/2019/05/06/Increased-max-file-size-to-100MB/&name=Increased max file size to 100MB&description="><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
+          <li><a class="icon" href="http://www.facebook.com/sharer.php?u=https://blog.fiery.me/2019/06/14/Recent-downtime/"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+          <li><a class="icon" href="https://twitter.com/share?url=https://blog.fiery.me/2019/06/14/Recent-downtime/&text=Recent downtime"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+          <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=https://blog.fiery.me/2019/06/14/Recent-downtime/&title=Recent downtime"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+          <li><a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https://blog.fiery.me/2019/06/14/Recent-downtime/&is_video=false&description=Recent downtime"><i class="fab fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
+          <li><a class="icon" href="mailto:?subject=Recent downtime&body=Check out this article: https://blog.fiery.me/2019/06/14/Recent-downtime/"><i class="fas fa-envelope fa-lg" aria-hidden="true"></i></a></li>
+          <li><a class="icon" href="https://getpocket.com/save?url=https://blog.fiery.me/2019/06/14/Recent-downtime/&title=Recent downtime"><i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
+          <li><a class="icon" href="http://reddit.com/submit?url=https://blog.fiery.me/2019/06/14/Recent-downtime/&title=Recent downtime"><i class="fab fa-reddit fa-lg" aria-hidden="true"></i></a></li>
+          <li><a class="icon" href="http://www.stumbleupon.com/submit?url=https://blog.fiery.me/2019/06/14/Recent-downtime/&title=Recent downtime"><i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
+          <li><a class="icon" href="http://digg.com/submit?url=https://blog.fiery.me/2019/06/14/Recent-downtime/&title=Recent downtime"><i class="fab fa-digg fa-lg" aria-hidden="true"></i></a></li>
+          <li><a class="icon" href="http://www.tumblr.com/share/link?url=https://blog.fiery.me/2019/06/14/Recent-downtime/&name=Recent downtime&description="><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
         </ul>
       </div>
       <div id="actions-footer">
