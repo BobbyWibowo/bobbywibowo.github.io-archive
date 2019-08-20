@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang=en>
+
+<head>
+  <meta name="generator" content="Hexo 3.8.0">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="Hi there! This is just a notice that starting with commit 3a39872 which fixed the uploader in relation to file size limit, I’ve also increased the safe’s max file size to 512MB. And of course since we">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="File size, chunked uploads, and stuff">
+  <meta property="og:url" content="https://blog.fiery.me/2019/08/20/File-size-and-stuff/index.html">
+  <meta property="og:site_name" content="Bobby&#39;s blog">
+  <meta property="og:description" content="Hi there! This is just a notice that starting with commit 3a39872 which fixed the uploader in relation to file size limit, I’ve also increased the safe’s max file size to 512MB. And of course since we">
+  <meta property="og:locale" content="en">
+  <meta property="og:updated_time" content="2019-08-20T02:44:32.239Z">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="File size, chunked uploads, and stuff">
+  <meta name="twitter:description" content="Hi there! This is just a notice that starting with commit 3a39872 which fixed the uploader in relation to file size limit, I’ve also increased the safe’s max file size to 512MB. And of course since we">
+  <title>File size, chunked uploads, and stuff</title>
+  <!-- Icons, configs, etcetera -->
+  <link rel="icon" type="image/png" href="https://blog.fiery.me/icons/32pxr.png?v=mLY7sOJPzV" sizes="32x32">
+  <link rel="icon" type="image/png" href="https://blog.fiery.me/icons/96pxr.png?v=mLY7sOJPzV" sizes="96x96">
+  <link rel="apple-touch-icon" href="https://blog.fiery.me/icons/120px.png?v=mLY7sOJPzV" sizes="120x120">
+  <link rel="apple-touch-icon" href="https://blog.fiery.me/icons/152px.png?v=mLY7sOJPzV" sizes="152x152">
+  <link rel="apple-touch-icon" href="https://blog.fiery.me/icons/167px.png?v=mLY7sOJPzV" sizes="167x167">
+  <link rel="apple-touch-icon" href="https://blog.fiery.me/icons/180px.png?v=mLY7sOJPzV" sizes="180x180">
+  <link rel="manifest" href="https://blog.fiery.me/icons/manifest.json?v=mLY7sOJPzV">
+  <meta name="apple-mobile-web-app-title" content="Bobby&#39;s blog">
+  <meta name="application-name" content="Bobby&#39;s blog">
+  <meta name="msapplication-config" content="https://blog.fiery.me/icons/browserconfig.xml?v=mLY7sOJPzV">
+  <meta name="theme-color" content="#232629">
+  <!-- Styles -->
+  <link rel="stylesheet" href="/css/style.css?v=mLY7sOJPzV">
+  <!-- RSS -->
+  <link rel="alternate" href="/atom.xml" title="Bobby&#39;s blog" type="application/atom+xml">
+</head>
+
+<body class="max-width mx-auto px3">
+  <div id="header-post">
+    <a id="menu-icon" href="#"><i class="fas fa-bars fa-lg"></i></a>
+    <a id="menu-icon-tablet" href="#"><i class="fas fa-bars fa-lg"></i></a>
+    <a id="top-icon-tablet" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fas fa-chevron-up fa-lg"></i></a>
+    <span id="menu">
+      <span id="nav">
+        <ul>
+          <li><a href="https://fiery.me">Home</a></li>
+          <li><a href="/">Blog</a></li>
+          <li><a href="/archives/">Archives</a></li>
+          <li><a href="/search/">Search</a></li>
+          <li><a href="https://github.com/BobbyWibowo">Projects</a></li>
+        </ul>
+      </span>
+      <br>
+      <span id="actions">
+        <ul>
+          <li><a class="icon" href="/2019/06/14/Recent-downtime/"><i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
+          <li><a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
+          <li><a class="icon" href="#"><i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
+        </ul>
+        <span id="i-prev" class="info" style="display:none;">Previous post</span>
+        <span id="i-next" class="info" style="display:none;">Next post</span>
+        <span id="i-top" class="info" style="display:none;">Back to top</span>
+        <span id="i-share" class="info" style="display:none;">Share post</span>
+      </span>
+      <br>
+      <div id="share" style="display: none">
+        <ul>
+          <li><a class="icon" href="http://www.facebook.com/sharer.php?u=https://blog.fiery.me/2019/08/20/File-size-and-stuff/"><i class="fab fa-facebook " aria-hidden="true"></i></a></li>
+          <li><a class="icon" href="https://twitter.com/share?url=https://blog.fiery.me/2019/08/20/File-size-and-stuff/&text=File size, chunked uploads, and stuff"><i class="fab fa-twitter " aria-hidden="true"></i></a></li>
+          <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=https://blog.fiery.me/2019/08/20/File-size-and-stuff/&title=File size, chunked uploads, and stuff"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
+          <li><a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https://blog.fiery.me/2019/08/20/File-size-and-stuff/&is_video=false&description=File size, chunked uploads, and stuff"><i class="fab fa-pinterest " aria-hidden="true"></i></a></li>
+          <li><a class="icon" href="mailto:?subject=File size, chunked uploads, and stuff&body=Check out this article: https://blog.fiery.me/2019/08/20/File-size-and-stuff/"><i class="fas fa-envelope " aria-hidden="true"></i></a></li>
+          <li><a class="icon" href="https://getpocket.com/save?url=https://blog.fiery.me/2019/08/20/File-size-and-stuff/&title=File size, chunked uploads, and stuff"><i class="fab fa-get-pocket " aria-hidden="true"></i></a></li>
+          <li><a class="icon" href="http://reddit.com/submit?url=https://blog.fiery.me/2019/08/20/File-size-and-stuff/&title=File size, chunked uploads, and stuff"><i class="fab fa-reddit " aria-hidden="true"></i></a></li>
+          <li><a class="icon" href="http://www.stumbleupon.com/submit?url=https://blog.fiery.me/2019/08/20/File-size-and-stuff/&title=File size, chunked uploads, and stuff"><i class="fab fa-stumbleupon " aria-hidden="true"></i></a></li>
+          <li><a class="icon" href="http://digg.com/submit?url=https://blog.fiery.me/2019/08/20/File-size-and-stuff/&title=File size, chunked uploads, and stuff"><i class="fab fa-digg " aria-hidden="true"></i></a></li>
+          <li><a class="icon" href="http://www.tumblr.com/share/link?url=https://blog.fiery.me/2019/08/20/File-size-and-stuff/&name=File size, chunked uploads, and stuff&description="><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
+        </ul>
+      </div>
+      <div id="toc">
+      </div>
+    </span>
+  </div>
+  <div class="content index my4">
+    <article class="post" itemscope="" itemtype="http://schema.org/BlogPosting">
+      <header>
+        <h1 class="posttitle" itemprop="name headline">
+          File size, chunked uploads, and stuff
+        </h1>
+        <div class="meta">
+          <span class="author" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+            <span itemprop="name">Bobby Wibowo</span>
+          </span>
+          <div class="postdate">
+            <time datetime="2019-08-20T02:21:23.000Z" itemprop="datePublished">20/08/2019</time>
+          </div>
+        </div>
+      </header>
+      <div class="content" itemprop="articleBody">
+        <p>Hi there!</p>
+        <p>This is just a notice that starting with commit <a href="https://github.com/BobbyWibowo/lolisafe/commit/3a398721b576eceab7e251690750f0fe36c84d58" target="_blank" rel="noopener">3a39872</a> which fixed the uploader in relation to file size limit, I’ve also increased the safe’s <strong>max file size to 512MB</strong>.</p>
+        <p>And of course since we’re behind Cloudflare, the uploads are chunked. For now I’ve also raised the <strong>chunk size to 25MB</strong>, since the previous 10MB was probably a bit too small and would end up needing too many connections (though I guess that wouldn’t have mattered).</p>
+        <p>Do remember that people using the API will still only be able to upload up to 100MB, cause Cloudflare.</p>
+        <p>For those who’re having issues with the chunked uploads, due to it either being too high or too low, it’s possible to manually change the size through your browser’s JS console.</p>
+        <p>I myself tend to have the upload’s connection dropped when uploading files higher than 25MB with a single chunk, cause my upload speed is a bit too slow (I suspect it’s due timeout limit from the server side instead, I’ll have to investigate further).</p>
+        <p>Run the line below to get the current size (in bytes):<br>
+          <figure class="highlight js">
+            <table>
+              <tr>
+                <td class="gutter">
+                  <pre><span class="line">1</span><br><span class="line">2</span><br></pre>
+                </td>
+                <td class="code">
+                  <pre><span class="line">page.dropzone.options.chunkSize</span><br><span class="line"><span class="comment">// output: 25000000</span></span><br></pre>
+                </td>
+              </tr>
+            </table>
+          </figure>
+        </p>
+        <p>And for example, run the line below to change it to 50MB:<br>
+          <figure class="highlight js">
+            <table>
+              <tr>
+                <td class="gutter">
+                  <pre><span class="line">1</span><br><span class="line">2</span><br></pre>
+                </td>
+                <td class="code">
+                  <pre><span class="line">page.dropzone.options.chunkSize = <span class="number">50</span> * <span class="number">1000</span> * <span class="number">1000</span></span><br><span class="line"><span class="comment">// output: 50000000</span></span><br></pre>
+                </td>
+              </tr>
+            </table>
+          </figure>
+        </p>
+        <p>Of course that change will only be temporary. You’ll have to execute it again when you refresh the page.</p>
+        <p>I plan to add a configuration window for the homepage uploader someday in the future, with chunk size as an option. Other than that, the uploader will only upload 2 files at a time for now, so maybe I’ll make that configurable as well.</p>
+        <p>I’ll also have to look into file size limit of the URL uploaders. For now it’s using DuckDuckGo to proxy things, and usually it’ll only be able to proxy images, so I’m not sure if 100MB limit even make any sense. To begin with, I don’t even know if they’ll proxy images that weight up to 100MB.</p>
+        <p>Oh well, I’ll look into that someday in the future.</p>
+        <p>That’s all for now. See ya folks~</p>
+      </div>
+    </article>
+    <div class="blog-post-comments">
+      <div id="disqus_thread">
+        <noscript>Please enable JavaScript to view the comments.</noscript>
+      </div>
+    </div>
+  </div>
+  <div id="footer-post-container">
+    <div id="footer-post">
+      <div id="nav-footer" style="display: none">
+        <ul>
+          <li><a href="https://fiery.me">Home</a></li>
+          <li><a href="/">Blog</a></li>
+          <li><a href="/archives/">Archives</a></li>
+          <li><a href="/search/">Search</a></li>
+          <li><a href="https://github.com/BobbyWibowo">Projects</a></li>
+        </ul>
+      </div>
+      <div id="toc-footer" style="display: none">
+      </div>
+      <div id="share-footer" style="display: none">
+        <ul>
+          <li><a class="icon" href="http://www.facebook.com/sharer.php?u=https://blog.fiery.me/2019/08/20/File-size-and-stuff/"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+          <li><a class="icon" href="https://twitter.com/share?url=https://blog.fiery.me/2019/08/20/File-size-and-stuff/&text=File size, chunked uploads, and stuff"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+          <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=https://blog.fiery.me/2019/08/20/File-size-and-stuff/&title=File size, chunked uploads, and stuff"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+          <li><a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=https://blog.fiery.me/2019/08/20/File-size-and-stuff/&is_video=false&description=File size, chunked uploads, and stuff"><i class="fab fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
+          <li><a class="icon" href="mailto:?subject=File size, chunked uploads, and stuff&body=Check out this article: https://blog.fiery.me/2019/08/20/File-size-and-stuff/"><i class="fas fa-envelope fa-lg" aria-hidden="true"></i></a></li>
+          <li><a class="icon" href="https://getpocket.com/save?url=https://blog.fiery.me/2019/08/20/File-size-and-stuff/&title=File size, chunked uploads, and stuff"><i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
+          <li><a class="icon" href="http://reddit.com/submit?url=https://blog.fiery.me/2019/08/20/File-size-and-stuff/&title=File size, chunked uploads, and stuff"><i class="fab fa-reddit fa-lg" aria-hidden="true"></i></a></li>
+          <li><a class="icon" href="http://www.stumbleupon.com/submit?url=https://blog.fiery.me/2019/08/20/File-size-and-stuff/&title=File size, chunked uploads, and stuff"><i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
+          <li><a class="icon" href="http://digg.com/submit?url=https://blog.fiery.me/2019/08/20/File-size-and-stuff/&title=File size, chunked uploads, and stuff"><i class="fab fa-digg fa-lg" aria-hidden="true"></i></a></li>
+          <li><a class="icon" href="http://www.tumblr.com/share/link?url=https://blog.fiery.me/2019/08/20/File-size-and-stuff/&name=File size, chunked uploads, and stuff&description="><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
+        </ul>
+      </div>
+      <div id="actions-footer">
+        <a id="menu" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;"><i class="fas fa-bars fa-lg" aria-hidden="true"></i> Menu</a>
+        <!--
+        <a id="toc" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;"><i class="fas fa-list fa-lg" aria-hidden="true"></i> TOC</a>
+        <a id="share" class="icon" href="#" onclick="$('#share-footer').toggle();return false;"><i class="fas fa-share-alt fa-lg" aria-hidden="true"></i> Share</a>
+        -->
+        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a>
+      </div>
+    </div>
+  </div>
+  <footer id="footer">
+    <div class="footer-left">
+      Copyright &copy; 2019 Bobby Wibowo
+    </div>
+    <div class="footer-right">
+      <nav>
+        <ul>
+          <li><a href="https://fiery.me">Home</a></li>
+          <li><a href="/">Blog</a></li>
+          <li><a href="/archives/">Archives</a></li>
+          <li><a href="/search/">Search</a></li>
+          <li><a href="https://github.com/BobbyWibowo">Projects</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+  <!-- styles -->
+  <link rel="stylesheet" href="/lib/font-awesome/css/fontawesome-all.min.css">
+  <link rel="stylesheet" href="/lib/justified-gallery/css/justifiedGallery.min.css">
+  <!-- fonts -->
+  <link rel="stylesheet" href="/css/merriweather.css?v=mLY7sOJPzV">
+  <link rel="stylesheet" href="/css/inconsolata.css?v=mLY7sOJPzV">
+  <!-- jquery -->
+  <script src="/lib/jquery/jquery.min.js"></script>
+  <script src="/lib/justified-gallery/js/jquery.justifiedGallery.min.js"></script>
+  <script src="/js/main.js"></script>
+  <!-- search -->
+  <!-- Google Analytics -->
+  <!-- Baidu Analytics -->
+  <!-- Disqus Comments -->
+  <script type="text/javascript">
+    var disqus_shortname = 'fiery';
+
+    (function() {
+      var dsq = document.createElement('script');
+      dsq.type = 'text/javascript';
+      dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+
+  </script>
+  <!-- Schnack Comments -->
+</body>
+
+</html>

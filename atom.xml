@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.fiery.me/"/>
-  <updated>2019-06-14T13:12:09.689Z</updated>
+  <updated>2019-08-20T02:44:32.239Z</updated>
   <id>https://blog.fiery.me/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>File size, chunked uploads, and stuff</title>
+    <link href="https://blog.fiery.me/2019/08/20/File-size-and-stuff/"/>
+    <id>https://blog.fiery.me/2019/08/20/File-size-and-stuff/</id>
+    <published>2019-08-20T02:21:23.000Z</published>
+    <updated>2019-08-20T02:44:32.239Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Hi there!&lt;/p&gt;
+&lt;p&gt;This is just a notice that starting with commit &lt;a
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>Recent downtime</title>
@@ -450,31 +473,6 @@
           &lt;p&gt;Hi~&lt;/p&gt;
 &lt;p&gt;Just a heads up, I’ve migrated from Wordpress to Hexo.&lt;/p&gt;
 &lt;p&gt;I figured using Wordpress for a simple personal blog was rather
-        
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>CHUNKED UPLOADS!!</title>
-    <link href="https://blog.fiery.me/2018/03/29/Chunked-Uploads/"/>
-    <id>https://blog.fiery.me/2018/03/29/Chunked-Uploads/</id>
-    <published>2018-03-28T20:50:47.000Z</published>
-    <updated>2018-09-29T15:14:42.896Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;Yayyyy~!&lt;/p&gt;
-&lt;p&gt;Good news! The safe now supports chunked uploads!&lt;/p&gt;
-&lt;p&gt;Chunked uploads? Nani the heck is that?&lt;/p&gt;
-&lt;p&gt;Well, basically,
         
       
     
