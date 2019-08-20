@@ -14,7 +14,7 @@
   <meta property="og:site_name" content="Bobby&#39;s blog">
   <meta property="og:description" content="Hi there! This is just a notice that starting with commit 3a39872 which fixed the uploader in relation to file size limit, I’ve also increased the safe’s max file size to 512MB. And of course since we">
   <meta property="og:locale" content="en">
-  <meta property="og:updated_time" content="2019-08-20T02:56:10.844Z">
+  <meta property="og:updated_time" content="2019-08-20T03:37:27.200Z">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="File size, chunked uploads, and stuff">
   <meta name="twitter:description" content="Hi there! This is just a notice that starting with commit 3a39872 which fixed the uploader in relation to file size limit, I’ve also increased the safe’s max file size to 512MB. And of course since we">
@@ -138,6 +138,20 @@
         <p>I’ll also have to look into file size limit of the URL uploaders. For now it’s using DuckDuckGo to proxy things, and usually it’ll only be able to proxy images, so I’m not sure if 100MB limit even make any sense. To begin with, I don’t even know if they’ll proxy images that weight up to 100MB.</p>
         <p>Oh well, I’ll look into that someday in the future.</p>
         <p>That’s all for now. See ya folks~</p>
+        <p>Ps. Sweet sweet cache HIT~<br>
+          <figure class="highlight bash">
+            <table>
+              <tr>
+                <td class="gutter">
+                  <pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre>
+                </td>
+                <td class="code">
+                  <pre><span class="line">$ curl -I https://i.fiery.me/lwSG.bin 2&gt;&amp;1 | grep <span class="string">'content-length\|cf-cache-status'</span></span><br><span class="line">content-length: 512000000</span><br><span class="line">cf-cache-status: HIT</span><br></pre>
+                </td>
+              </tr>
+            </table>
+          </figure>
+        </p>
       </div>
     </article>
     <div class="blog-post-comments">
