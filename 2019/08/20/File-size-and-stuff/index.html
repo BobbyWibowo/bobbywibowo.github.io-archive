@@ -14,7 +14,7 @@
   <meta property="og:site_name" content="Bobby&#39;s blog">
   <meta property="og:description" content="Hi there! This is just a notice that starting with commit 3a39872 which fixed the uploader in relation to file size limit, I’ve also increased the safe’s max file size to 512MB. And of course since we">
   <meta property="og:locale" content="en">
-  <meta property="og:updated_time" content="2019-08-20T02:44:32.239Z">
+  <meta property="og:updated_time" content="2019-08-20T02:56:10.844Z">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="File size, chunked uploads, and stuff">
   <meta name="twitter:description" content="Hi there! This is just a notice that starting with commit 3a39872 which fixed the uploader in relation to file size limit, I’ve also increased the safe’s max file size to 512MB. And of course since we">
@@ -127,7 +127,7 @@
                   <pre><span class="line">1</span><br><span class="line">2</span><br></pre>
                 </td>
                 <td class="code">
-                  <pre><span class="line">page.dropzone.options.chunkSize = <span class="number">50</span> * <span class="number">1000</span> * <span class="number">1000</span></span><br><span class="line"><span class="comment">// output: 50000000</span></span><br></pre>
+                  <pre><span class="line">page.dropzone.options.chunkSize = <span class="number">50</span> * <span class="number">1e6</span></span><br><span class="line"><span class="comment">// output: 50000000</span></span><br></pre>
                 </td>
               </tr>
             </table>
